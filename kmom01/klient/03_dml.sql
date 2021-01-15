@@ -3,16 +3,12 @@
 --
 USE dbwebb;
 
-
-
 --
 -- Delete from all tables.
 --
 DELETE FROM student2course; 
 DELETE FROM student; 
 DELETE FROM course; 
-
-
 
 --
 -- Add some students.
@@ -27,8 +23,6 @@ VALUES
     ('doe', 'John/Jane Doe')
 ;
 
-
-
 --
 -- Add some courses.
 --
@@ -40,8 +34,6 @@ VALUES
     ('DV1606', 'Databasteknologier', 'databas', 7.5),
     ('DV1608', 'Objektorienterade webbteknologier', 'oophp', 7.5)
 ;
-
-
 
 --
 -- Adding students to courses, with grades if there exists such.

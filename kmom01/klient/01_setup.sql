@@ -10,7 +10,7 @@
 --    BY 'pass'
 -- ;
 
--- Alternate for MariaDB 
+-- Alternate for MariaDB
 CREATE USER IF NOT EXISTS 'user'@'%'
     IDENTIFIED BY 'pass'
 ;
@@ -27,6 +27,8 @@ GRANT ALL PRIVILEGES
     ON dbwebb.*
     TO 'user'@'%'
 ;
+
+FLUSH PRIVILEGES;
 
 -- Create the database 'dbwebb', but only if it does not exists.
 CREATE DATABASE IF NOT EXISTS dbwebb;
