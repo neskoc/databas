@@ -6,20 +6,11 @@ echo ">>> Reset skolan to after part 1"
 echo ">>> Recreate the database (as root)"
 mariadb -uroot -p < setup.sql > /dev/null
 
-file="ddl.sql"
-echo ">>> Create tables ($file)"
-mariadb -uuser -ppass skolan < $file  > /dev/null
+bash reset_pre_lonerevision.bash
 
-file="dml_insert.sql"
-echo ">>> Insert into larare ($file)"
-mariadb -uuser -ppass skolan < $file  > /dev/null
-
-file="ddl_migrate.sql"
-echo ">>> Alter table larare ($file)"
-mariadb -uuser -ppass skolan < $file  > /dev/null
-
-file="dml_update.sql"
-echo ">>> Förbered lönerevision, grundlön larare ($file)"
+# Make copy of larare-table
+file="ddl_copy.sql"
+echo ">>> Copy table ($file)"
 mariadb -uuser -ppass skolan < $file  > /dev/null
 
 file="dml_update_lonerevision.sql"
@@ -28,3 +19,7 @@ mariadb -uuser -ppass skolan < $file  > /dev/null
 
 echo ">>> Check Lönesumman = 330242, Kompetens = 19."
 mariadb  -uuser -ppass skolan -e "SELECT SUM(lon) AS 'Lönesumma', SUM(kompetens) AS Kompetens FROM larare;"
+
+file="dml_view.sql"
+echo ">>> Add view ($file)"
+mariadb -uuser -ppass skolan < $file  > /dev/null

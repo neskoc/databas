@@ -10,12 +10,36 @@ include("incl/navbar.php");
         <header>
             <h1>Redovisningssida för Databskursen</h1>
         </header>
-        <p>
-            Här kommer finnas lösningar för de olika kursmomenten.
-        </p>
         <section>
             <?php
             $filename = __DIR__ . "/kmom01.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom02.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom03.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom04.md";
             $text     = file_get_contents($filename);
             $filter   = new \Anax\TextFilter\TextFilter();
             $parsed   = $filter->parse($text, ["shortcode", "markdown"]);

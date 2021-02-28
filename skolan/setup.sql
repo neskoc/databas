@@ -1,6 +1,7 @@
 -- Skapa databas
 -- CREATE DATABASE skolan;
 CREATE DATABASE IF NOT EXISTS skolan;
+CREATE DATABASE IF NOT EXISTS dbwebb;
 
 -- Välj vilken databas du vill använda
 USE skolan;
@@ -30,6 +31,12 @@ GRANT ALL PRIVILEGES
 GRANT ALL PRIVILEGES
     ON skolan.*
     TO 'user'@'%';
+;
+
+GRANT ALL PRIVILEGES
+    ON *.*
+    TO 'user'@'localhost'
+;
 
 FLUSH PRIVILEGES;
 
