@@ -1,0 +1,27 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neskoc/databas.git"
+  },
+  "author": "Nenad Cuturic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neskoc/databas/issues"
+  },
+  "homepage": "https://github.com/neskoc/databas#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "esm": "^3.2.25",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "promise-mysql": "^5.0.2"
+  }
+}

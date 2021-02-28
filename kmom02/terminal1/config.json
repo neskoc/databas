@@ -1,0 +1,7 @@
+{
+    "host":        "localhost",
+    "user":        "user",
+    "password":    "pass",
+    "dateStrings": "true",
+    "database":    "skolan"
+}

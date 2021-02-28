@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="utf-8">
+<title><%= title %></title>
+<link rel="stylesheet" href="/style/style.css">
+<link rel='shortcut icon' href='/img/iconfinder_032_95930.png'/>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0;">
+
+<body>
+
+<header>
+    <header class="site-header">
+        <img src="/img/iconfinder_032_95930.png" alt="logo" />
+        <span class="site-title">Banksida</span>
+        <span class="site-slogan">Non omne quod nitet aurum est.</span>
+    </header>
+    <nav class="navbar">
+        <a href="/bank/index"
+             class='<%= path === "/index" ||  path === "/" ? "selected" : "a-navbar" %>'>Index</a> |
+        <a href="/bank/balance"
+             class='<%= path === "/balance" ? "selected" : "a-navbar" %>'>Balance</a>
+        <a href="/bank/move-to-adam"
+             class='<%= path === "/move-to-adam" ? "selected" : "a-navbar" %>'>Move to Adam</a>
+    </nav>
+</header>
+
+<main>
+<article  class="all-browsers">

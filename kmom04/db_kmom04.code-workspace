@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"jshint.config": "",
+		"jshint.options": {
+		"esversion": 9,
+		"node": true
+		}
+	}
+}
