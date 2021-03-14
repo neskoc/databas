@@ -1,0 +1,29 @@
+<%- include("../../partials/header", {title: title, path: path}); %>
+
+<h1>Skapa en ny produkt</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>Skapa produkt</legend>
+
+        <label for="namn">Namn</label><br>
+        <input id="namn" type="text" name="namn" maxlength="150" required>
+        <br>
+
+        <label for="beskrivning">Beskrivning</label>
+        <textarea id="beskrivning" name="beskrivning" rows="4" maxlength="300"></textarea>
+        <br>
+
+        <label for="bildlank">Produktens bildlänk</label><br>
+        <input id="bildlank" type="text" name="bildlank" maxlength="200">
+        <br>
+
+        <label for="pris">Pris</label><br>
+        <input dir="rtl" id="pris" type="number" name="pris" value="50.00" min="0" step=".01" required> kr
+
+    </fieldset>
+    <br>
+    <input type="submit" name="skapaProdukt" value="Skapa">
+</form>
+
+<%- include("../../partials/footer"); %>

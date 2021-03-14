@@ -1,0 +1,37 @@
+<!doctype html>
+<meta charset="utf-8">
+<title><%= title %></title>
+<link rel="stylesheet" href="/style/style.css">
+<link rel='shortcut icon' href='/img/iconfinder_032_95930.png'/>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=2.0;">
+
+<body>
+
+<header>
+    <header class="site-header">
+        <img src="/img/iconfinder_032_95930.png" hight="100" width="100" alt="logo" />
+        <span class="site-title">Eshop3</span>
+        <span class="site-slogan">Non omne quod nitet aurum est.</span>
+    </header>
+    <nav class="navbar">
+        <a href="/eshop/index"
+             class='<%= path === "/index" ||  path === "/" ? "selected" : "a-navbar" %>'>Index</a> |
+        <a href="/eshop/product"
+            class='<%= path === "/product" ? "selected" : "a-navbar" %>'>Produkter</a>
+        <a href="/eshop/category"
+             class='<%= path === "/category" ? "selected" : "a-navbar" %>'>Kategorier</a>
+        <a href="/eshop/customer"
+            class='<%= path === "/customer" ? "selected" : "a-navbar" %>'>Kunder</a>
+        <a href="/eshop/order"
+            class='<%= path === "/order" ? "selected" : "a-navbar" %>'>Beställningar</a>
+        <a href="/eshop/log"
+            class='<%= path === "/log" ? "selected" : "a-navbar" %>'>Log</a>
+        <a href="/eshop/about"
+            class='<%= path === "/about" ? "selected" : "a-navbar" %>'>Om</a>
+        <a href="/eshop/session"
+            class='<%= path === "/session" ? "selected" : "a-navbar" %>'>Session</a>
+    </nav>
+</header>
+
+<main>
+<article  class="all-browsers">

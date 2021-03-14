@@ -1,0 +1,32 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Kunder</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Namn</th>
+            <th>Fakturaadress</th>
+            <th>Lev.adress</th>
+            <th>Telefon</th>
+            <th>Epost</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td class="right"><%= row.kund_id %></td>
+            <td><%= row.fornamn + " " + row.efternamn %></td>
+            <td><%= row.fakturaadress %></td>
+            <td><%= row.leveransadress %></td>
+            <td class="right"><%= row.telefon %></td>
+            <td><%= row.epost %></td>
+            <td class="right button"><a href="create_order/<%= row.kund_id %>" title="Skapa en ny order för kunden">Skapa order</a></td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>
