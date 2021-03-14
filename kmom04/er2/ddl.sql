@@ -9,8 +9,8 @@ SET NAMES 'utf8';
 USE eshop;
 
 DROP TABLE IF EXISTS logg;
-DROP TABLE IF EXISTS kattegorisering;
-DROP TABLE IF EXISTS produkt_hylla;
+DROP TABLE IF EXISTS produkt2kategori;
+DROP TABLE IF EXISTS produkt2hylla;
 DROP TABLE IF EXISTS bestallning_rad;
 DROP TABLE IF EXISTS plocklista_rad;
 DROP TABLE IF EXISTS plocklista;
@@ -31,11 +31,11 @@ DROP TABLE IF EXISTS produkt;
 CREATE TABLE produkt
 (
     `produkt_id` INT AUTO_INCREMENT NOT NULL,
-    `produktnamn` VARCHAR(30),
-    `antal` INT,
-    `pris` INT,
+    `produktnamn` VARCHAR(150),
+    `pris` DECIMAL(10,2),
     `beskrivning` VARCHAR(300),
-    `producktbild` blob,
+    `produktbild_lank` VARCHAR(200),
+    `aktiv` BOOLEAN DEFAULT TRUE,
 
     PRIMARY KEY (produkt_id)
 )
@@ -50,7 +50,8 @@ CREATE TABLE produktkategori
 (
     `kategori_id` INT AUTO_INCREMENT NOT NULL,
     `kategorinamn` VARCHAR(30),
-    `kategoribild` blob,
+    `kategoribild_lank` VARCHAR(200),
+    `aktiv` BOOLEAN DEFAULT TRUE,
 
     PRIMARY KEY (kategori_id)
 )
@@ -59,9 +60,9 @@ CHARSET utf8
 COLLATE utf8_swedish_ci
 ;
 
--- kattegorisering (#produkt_id, #kategori_id)
-DROP TABLE IF EXISTS kattegorisering;
-CREATE TABLE kattegorisering
+-- produkt2kategori (#produkt_id, #kategori_id)
+DROP TABLE IF EXISTS produkt2kategori;
+CREATE TABLE produkt2kategori
 (
     `produkt_id`  INT NOT NULL,
     `kategori_id` INT NOT NULL,
@@ -82,11 +83,12 @@ CREATE TABLE kund
     `kund_id`            INT AUTO_INCREMENT NOT NULL,
     `fornamn`            VARCHAR(20),
     `efternamn`          VARCHAR(20),
-    `telefonnummer`      VARCHAR(15),
-    `epostadress`        VARCHAR(40),
+    `telefon`      VARCHAR(15),
+    `epost`        VARCHAR(40),
     `fakturaadress`      VARCHAR(200),
     `leveransadress`     VARCHAR(200),
-    `registreringsdatum` DATE,
+    `registreringsdatum` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `aktiv` BOOLEAN DEFAULT TRUE,
 
     PRIMARY KEY (kund_id)
 )
@@ -99,8 +101,7 @@ COLLATE utf8_swedish_ci
 DROP TABLE IF EXISTS hylla;
 CREATE TABLE hylla
 (
-    `hylla_id`   INT AUTO_INCREMENT NOT NULL,
-    `position`   VARCHAR(100),
+    `hylla_id` VARCHAR(100) NOT NULL,
 
     PRIMARY KEY (hylla_id)
 )
@@ -110,11 +111,12 @@ COLLATE utf8_swedish_ci
 ;
 
 -- produkthylla (#produkt_id, #hyll_id, antal)
-DROP TABLE IF EXISTS produkt_hylla;
-CREATE TABLE produkt_hylla
+DROP TABLE IF EXISTS produkt2hylla;
+CREATE TABLE produkt2hylla
 (
     `produkt_id`    INT NOT NULL,
-    `hylla_id`      INT NOT NULL,
+    `hylla_id`      VARCHAR(100) NOT NULL,
+    `antal`         INT,
 
     PRIMARY KEY (produkt_id, hylla_id),
     FOREIGN KEY (produkt_id) REFERENCES produkt(produkt_id),
@@ -129,11 +131,14 @@ COLLATE utf8_swedish_ci
 DROP TABLE IF EXISTS bestallning;
 CREATE TABLE bestallning
 (
-    `bestallning_id`           INT AUTO_INCREMENT NOT NULL,
-    `kund_id`            INT NOT NULL,
-    `bestallningdatum`         DATETIME,
-    `senast_uppdaterat`  DATETIME,
-    `status`             VARCHAR(15),
+    `bestallning_id` INT AUTO_INCREMENT NOT NULL,
+    `kund_id`        INT NOT NULL,
+    `skapad`         TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `uppdaterad`     TIMESTAMP NULL ON UPDATE CURRENT_TIMESTAMP,
+    `bestalld`       TIMESTAMP NULL,
+    `skickad`        TIMESTAMP NULL,
+    `raderad`        TIMESTAMP NULL,
+    `status`         VARCHAR(10),
 
     PRIMARY KEY (bestallning_id),
     FOREIGN KEY (kund_id) REFERENCES kund(kund_id)
@@ -182,7 +187,7 @@ CREATE TABLE plocklista_rad
 (
     `plocklista_id` INT NOT NULL,
     `produkt_id`    INT NOT NULL,
-    `hylla_id`      INT NOT NULL,
+    `hylla_id`      VARCHAR(100) NOT NULL,
     `antal`         INT NOT NULL,
 
     PRIMARY KEY (plocklista_id, produkt_id, hylla_id),
@@ -269,8 +274,8 @@ DROP TABLE IF EXISTS logg;
 CREATE TABLE logg
 (
     `logg_id`       INT AUTO_INCREMENT NOT NULL,
-    `tidsstampel`   TIMESTAMP,
-    `hadelse`       VARCHAR(30),
+    `tidsstampel`   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `handelse`       VARCHAR(200),
 
     PRIMARY KEY (logg_id)
 )

@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon kmom05/eshop1/index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "2500"
   },
   "repository": {
     "type": "git",
@@ -18,8 +25,11 @@
   },
   "homepage": "https://github.com/neskoc/databas#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "console.table": "^0.10.0",
+    "ejs": "^3.1.6",
     "esm": "^3.2.25",
+    "express": "^4.17.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
     "promise-mysql": "^5.0.2"

@@ -1,0 +1,39 @@
+<%- include("../../partials/header", {title: title, path: path}); %>
+
+<h1>Uppdatera en ny produkt</h1>
+
+<form method="post" action="/eshop/update_product">
+    <fieldset>
+        <legend>Uppdatera produkt</legend>
+
+
+        <input id="id" type="text" name="id" value="<%= res.produkt_id %>" hidden>
+
+        <label for="namn">Namn</label><br>
+        <input id="namn" type="text" name="namn" maxlength="150" value="<%= res.produktnamn %>" required>
+        <br>
+
+        <label for="beskrivning">Beskrivning</label>
+        <textarea id="beskrivning" name="beskrivning" rows="4" maxlength="300"><%= res.beskrivning %></textarea>
+        <br>
+
+        <label for="bildlank">Produktens bildlänk</label><br>
+        <input id="bildlank" type="text" name="bildlank" maxlength="200" value="<%= res.produktbild_lank %>">
+        <br>
+
+        <label for="pris">Pris (kr)</label><br>
+        <input id="pris" type="number" name="pris" min="0" step=".01" value="<%= res.pris %>" required>
+    </fieldset>
+    <fieldset>
+        <legend>Välj kategorier</legend>
+
+        <% for (const row of query_all_cat) {
+        %>
+            <input id="<%= row.kategori_id %>" type="checkbox" name="<%= row.kategori_id %>" <%= member_cat.includes(row.kategorinamn) ? 'checked' : '' %>>
+            <label for="<%= row.kategori_id %>"><%= row.kategorinamn %></label>
+        <% } %>
+    </fieldset>
+    <input type="submit" name="uppdateraProdukt" value="Uppdatera">
+</form>
+
+<%- include("../../partials/footer"); %>

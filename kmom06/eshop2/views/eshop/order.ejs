@@ -1,0 +1,61 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Samtliga ordrar</h1>
+
+<p>
+    Klicka på order id för att visa den hela ordern.<br>
+    Placera muspekaren ovanför symbolen för att se förklaring för funktionen.
+</p>
+
+<form method="get" action="change_order">
+    <table>
+        <thead>
+            <tr>
+                <th>Order id</th>
+                <th>Kund id</th>
+                <th>Skapad</th>
+                <th>Orderrader</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        <% for (const row of res) { 
+            var date = new Date(row.skapad);
+            date.setHours(date.getHours() + 1);
+            var timestamp = date.toISOString().slice(0, 10) + ' ' + date.toISOString().slice(11, 19);
+        %>
+            <tr>
+                <td class="right"><a href="show_order?order_id=<%= row.bestallning_id %>&customer_id=<%= row.kund_id %>" title="Visa komplett order"><%= row.bestallning_id %></a></td>
+                <td class="right"><%= row.kund_id %></td>
+                <td class="right"><%= timestamp %></td>
+                <td class="right"><%= row.antal %> st</td>
+                <td class="center"><%= row.status %></td>
+                <td class="actions">
+                    <%_ if (row.status === "skapad" || row.status === "uppdaterad") { %>
+                        <a href="update_order?order_id=<%= row.bestallning_id %>&customer_id=<%= row.kund_id %>" title="Redigera">&#x270e;</a>
+                    <%_ } else { %>
+                        &nbsp;&nbsp;&nbsp;
+                    <% }
+                       if (row.status === "raderad") { %>
+                        <a href="change_order_status?order_id=<%= row.bestallning_id %>&status=aktivera" title="Återaktivera">&#9100;</a>
+                    <% } else { %>
+                        <a href="change_order_status?order_id=<%= row.bestallning_id %>&status=raderad" title="Mjukradera">&#128465;</a>
+                    <% } 
+                       if (["skapad", "uppdaterad"].includes(row.status) && row.antal > 0) { %>
+                        <a href="change_order_status?order_id=<%= row.bestallning_id %>&status=bestalld" title="Beställ">&#10004;</a>
+                    <% } else if (row.status === "beställd") { %>
+                        <a href="picklist/<%= row.bestallning_id %>" title="Visa plocklistan">&#9935;</a>
+                    <% } else if (row.status === "skickad") { %>
+                        <a href="invoice?order_id=<%= row.bestallning_id %>&customer_id=<%= row.kund_id %>" title="Visa fakturan">&#128442;</a>
+                    <% } else { %>
+                        &nbsp;&nbsp;&nbsp;
+                    <% } %>
+                </td>
+            </tr>
+        <% } %>
+        </tbody>
+    </table>
+</form>
+
+<%- include("../partials/footer"); %>

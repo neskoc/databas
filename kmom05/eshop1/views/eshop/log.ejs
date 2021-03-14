@@ -1,0 +1,40 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Logg händelser</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>Filtrera händelserna</legend>
+
+        <label for="search">Sökfilter</label>
+        <br>
+        <input id="search" type="text" name="search" maxlength="150" required>
+        <br>
+        <input type="submit" name="skapaProdukt" value="Filtrera">
+    </fieldset>
+</form>
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Tidsstämpel</th>
+            <th>Händelse</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { 
+    var date = new Date(row.tidsstampel)
+    var timestamp = date.toISOString().slice(0, 10) + ' ' + date.toISOString().slice(11, 19)
+    %>
+        <tr>
+            <td class="right"><%= row.logg_id %></td>
+            <td class="right"><%= timestamp %></td>
+            <td><%= row.handelse %></td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

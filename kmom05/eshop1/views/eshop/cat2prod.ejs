@@ -1,0 +1,24 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Produkter i kategori: <%= cat.kategorinamn %> </h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Namn</th>
+            <th>Bildlänk</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of prods) { %>
+        <tr>
+            <td class="right"><%= row.produkt_id %></td>
+            <td><%= row.produktnamn %></td>
+            <td class="right"><%= row.produktbild_lank %></td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

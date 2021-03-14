@@ -1,0 +1,45 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Kategorier</h1>
+
+<p>
+    <form method="get" action="create_category">
+        <button type="submit">Skapa en ny produktkategori</button>
+    </form>
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Namn</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td class="right"><%= row.kategori_id %></td>
+            <td class="right"><a href="/eshop/cat2prod/<%= row.kategori_id %>" title="Visa produkter inom denna kategori"><%= row.kategorinamn %></a></td>
+            <td class="right">
+                <% if (row.aktiv == 1) { %>
+                    aktiv
+                <% } else { %>
+                    raderad
+                <% } %>
+            </td>
+            <td class="actions"><a href="" title="Redigera">&#x270e;</a>
+                <% if (row.aktiv == 1) { %>
+                    <a href="" title="Mjukt radera">&#128465;</a>
+                <% } else { %>
+                    <a href="" title="Återaktivera">&#9100;</a>
+                <% } %>
+                <a href="" title="Permanent">&#128163;</a>
+            </td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

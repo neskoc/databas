@@ -1,0 +1,31 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Plocklista</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Produkt id</th>
+            <th>Produktnamn</th>
+            <th>Antal beställda</th>
+            <th>Antal på nyllan</th>
+            <th># att plocka</th>
+            <th>Från hylla</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td class="right"><%= row["ProductID"] %></td>
+            <td class="right"><%= row["Product name"] %></td>
+            <td class="right"><%= row["Ordered"] %></td>
+            <td class="right"><%= row["Nr on shelf"] %></td>
+            <td class="right"><%= row["Number to pick"] %></td>
+            <td class="right"><%= row["From shelf"] %></td>
+            </td>
+        </tr>
+    <% } %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

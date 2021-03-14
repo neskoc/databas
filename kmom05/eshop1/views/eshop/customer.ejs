@@ -1,0 +1,28 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Kunder</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Namn</th>
+            <th>Fakturaadress</th>
+            <th>Telefon</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td class="right"><%= row.kund_id %></td>
+            <td><a href="/eshop/customer/show_customer/<%= row.kund_id %>" title="Visa all info om kunden"><%= row.fornamn + " " + row.efternamn %></a></td>
+            <td><%= row.fakturaadress %></td>
+            <td class="right"><%= row.telefon %></td>
+            <td class="right button"><a href="/eshop/order/create_order/<%= row.kund_id %>" title="Skapa en order för kunden">Skapa order</a></td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

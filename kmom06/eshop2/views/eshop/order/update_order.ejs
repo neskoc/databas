@@ -1,0 +1,48 @@
+<%- include("../../partials/header", {title: title, path: path}); %>
+
+<h1>Redigera beställning</h1>
+
+<p>
+    Kund: <strong><%= kund.fornamn %> <%= kund.efternamn %></strong> (id: <%= kund.kund_id %>)
+    <br> Beställningsid: <strong><%= order_id %></strong>
+</p>
+
+<form method="post">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Namn</th>
+                <th>Kategori(er)</th>
+                <th>(Nytt)<br>pris/st</th>
+                <th>Gammalt<br>pris/st</th>
+                <th>Lagerstatus</th>
+                <th>Antal</th>
+            </tr>
+        </thead>
+        <tbody>
+        <% for (const row of res) { %>
+            <% if (row.aktiv == 1) { %>
+                <tr>
+                    <td class="right"><%= row.id %></td>
+                    <td><%= row.namn %></td>
+                    <td><%= row.kategorier %></td>
+                    <td class="right"><%= row.pris %> kr</td>
+                    <td class="right">
+                        <% if (row.gammalt_pris !== undefined) { %>
+                            <%= row.gammalt_pris %> kr
+                        <% } %>  
+                    </td>
+                    <td class="right"><%= row.antal %> st</td>
+                    <td><input dir="rtl" id="<%= row.id %>" type="number" name="<%= row.id %>" value="<%= row.selected_number %>" min="0" required></td>                
+                </tr>
+            <% } %>
+        <% }; %>
+        </tbody>
+    </table>
+    <br>
+    <input id="kund_id" type="number" name="kund_id" value="<%= kund.kund_id %>" hidden>
+    <button type="submit">Spara</button>
+</form>
+
+<%- include("../../partials/footer"); %>

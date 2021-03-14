@@ -46,6 +46,33 @@ include("incl/navbar.php");
             echo $parsed->text;
             ?>
         </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom05.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom06.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
+        <section>
+            <?php
+            $filename = __DIR__ . "/kmom10.md";
+            $text     = file_get_contents($filename);
+            $filter   = new \Anax\TextFilter\TextFilter();
+            $parsed   = $filter->parse($text, ["shortcode", "markdown"]);
+            echo $parsed->text;
+            ?>
+        </section>
     </article>
 </main>
 
