@@ -1,0 +1,2303 @@
+20210324161912
+.
+total 204
+-rw-r--r--   1 nesko nesko   3750 mar 24 14:20 cli.js
+drwxr-xr-x   3 nesko nesko   4096 mar 24 02:14 config
+drwxr-xr-x   3 nesko nesko   4096 mar 24 11:55 .dbwebb
+drwxrwxr-x   2 nesko nesko   4096 mar 24 13:01 doc
+-rw-r--r--   1 nesko nesko     60 mar 24 02:07 exam.code-workspace
+-rw-r--r--   1 nesko nesko   2162 mar 24 02:03 index.js
+-rw-r--r--   1 nesko nesko  10871 mar 24 11:55 INSTRUKTION.md
+drwxr-xr-x   2 nesko nesko   4096 mar 24 02:14 middleware
+drwxrwxr-x 181 nesko nesko   4096 mar 24 03:13 node_modules
+-rw-r--r--   1 nesko nesko    101 mar  2 12:00 nodemon.json
+-rw-r--r--   1 nesko nesko    534 mar  7 12:35 package.json
+-rw-r--r--   1 nesko nesko 125835 mar 24 03:13 package-lock.json
+drwxr-xr-x   4 nesko nesko   4096 mar 24 02:14 public
+-rw-r--r--   1 nesko nesko   3926 mar 24 11:55 README_FIRST.md
+drwxr-xr-x   3 nesko nesko   4096 mar 24 02:14 route
+drwxr-xr-x   3 nesko nesko   4096 mar 24 02:14 sql
+drwxr-xr-x   2 nesko nesko   4096 mar 24 02:56 src
+drwxrwxr-x   4 nesko nesko   4096 mar 24 02:58 views
+./doc
+total 36
+-rw-rw-r-- 1 nesko nesko 26129 mar 24 13:01 er.pdf
+-rw-rw-r-- 1 nesko nesko  6916 mar 24 12:59 exam.mwb
+./route
+total 4
+drwxr-xr-x 2 nesko nesko 4096 mar 24 02:14 exam
+./route/exam
+total 8
+-rw-r--r-- 1 nesko nesko 1003 mar 24 14:31 exam.js
+-rw-r--r-- 1 nesko nesko  229 mar  2 12:14 index.js
+./node_modules/utils-merge
+total 20
+-rw-rw-r-- 1 nesko nesko  381 sep 20  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1084 sep 20  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko   79 sep 20  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko  857 sep 20  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1319 sep 20  2017 README.md
+./node_modules/fill-range
+total 24
+-rw-rw-r-- 1 nesko nesko 6315 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1091 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1459 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 7486 okt 26  1985 README.md
+./node_modules/content-type
+total 24
+-rw-rw-r-- 1 nesko nesko  436 sep 11  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 4809 sep 11  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1089 sep 11  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1070 sep 11  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2796 sep 11  2017 README.md
+./node_modules/pstree.remy
+total 24
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1126 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  629 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  421 okt 26  1985 README.md
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 tests
+-rw-rw-r-- 1 nesko nesko  100 okt 26  1985 .travis.yml
+./node_modules/pstree.remy/tests
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 fixtures
+-rw-rw-r-- 1 nesko nesko 1387 okt 26  1985 index.test.js
+./node_modules/pstree.remy/tests/fixtures
+total 16
+-rw-rw-r-- 1 nesko nesko  282 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 2382 okt 26  1985 out1
+-rw-rw-r-- 1 nesko nesko 5822 okt 26  1985 out2
+./node_modules/pstree.remy/lib
+total 12
+-rw-rw-r-- 1 nesko nesko  800 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  857 okt 26  1985 tree.js
+-rw-rw-r-- 1 nesko nesko 1171 okt 26  1985 utils.js
+./node_modules/term-size
+total 24
+-rw-rw-r-- 1 nesko nesko  323 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1820 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1117 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  744 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1372 okt 26  1985 readme.md
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 vendor
+./node_modules/term-size/vendor
+total 20
+-rw-rw-r-- 1 nesko nesko 8196 okt 26  1985 .DS_Store
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 macos
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 windows
+./node_modules/term-size/vendor/macos
+total 36
+-rw-rw-r-- 1 nesko nesko  6148 okt 26  1985 .DS_Store
+-rwxrwxr-x 1 nesko nesko 27264 okt 26  1985 term-size
+./node_modules/term-size/vendor/windows
+total 20
+-rw-rw-r-- 1 nesko nesko 17408 okt 26  1985 term-size.exe
+./node_modules/global-dirs
+total 20
+-rw-rw-r-- 1 nesko nesko 1287 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 3111 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1117 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  933 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1758 okt 26  1985 readme.md
+./node_modules/responselike
+total 16
+-rw-rw-r-- 1 nesko nesko 1055 aug 17  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko  825 aug 17  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1924 aug 17  2017 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 src
+./node_modules/responselike/src
+total 4
+-rw-rw-r-- 1 nesko nesko 823 aug 17  2017 index.js
+./node_modules/ansi-align
+total 24
+-rw-rw-r-- 1 nesko nesko 1435 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 1334 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  731 okt 26  1985 LICENSE
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  926 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2945 okt 26  1985 README.md
+./node_modules/ansi-align/node_modules
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 string-width
+./node_modules/ansi-align/node_modules/string-width
+total 16
+-rw-rw-r-- 1 nesko nesko  751 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  918 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1231 okt 26  1985 readme.md
+./node_modules/rc
+total 44
+-rw-rw-r-- 1 nesko nesko  137 apr 29  2018 browser.js
+-rwxrwxr-x 1 nesko nesko  109 apr 29  2018 cli.js
+-rwxrwxr-x 1 nesko nesko 1503 apr 29  2018 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  586 apr 29  2018 LICENSE.APACHE2
+-rw-rw-r-- 1 nesko nesko 1516 apr 29  2018 LICENSE.BSD
+-rw-rw-r-- 1 nesko nesko 1088 apr 29  2018 LICENSE.MIT
+-rw-rw-r-- 1 nesko nesko  695 maj 27  2018 package.json
+-rw-rw-r-- 1 nesko nesko 5982 apr 29  2018 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+./node_modules/rc/test
+total 12
+-rw-rw-r-- 1 nesko nesko  312 apr 29  2018 ini.js
+-rw-rw-r-- 1 nesko nesko 1392 apr 29  2018 nested-env-vars.js
+-rw-rw-r-- 1 nesko nesko 1176 apr 29  2018 test.js
+./node_modules/rc/lib
+total 4
+-rw-rw-r-- 1 nesko nesko 2759 apr 29  2018 utils.js
+./node_modules/emoji-regex
+total 36
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 es2015
+-rw-rw-r-- 1 nesko nesko  100 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 7391 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1077 okt 26  1985 LICENSE-MIT.txt
+-rw-rw-r-- 1 nesko nesko 1308 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2706 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 7392 okt 26  1985 text.js
+./node_modules/emoji-regex/es2015
+total 16
+-rw-rw-r-- 1 nesko nesko 8143 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 8144 okt 26  1985 text.js
+./node_modules/parseurl
+total 20
+-rw-rw-r-- 1 nesko nesko 1043 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2809 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1173 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1180 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4094 okt 26  1985 README.md
+./node_modules/querystring
+total 56
+-rw-rw-r-- 1 nesko nesko 2399 mar  5  2013 decode.js
+-rw-rw-r-- 1 nesko nesko 2090 mar  5  2013 encode.js
+-rw-rw-r-- 1 nesko nesko  357 mar  5  2013 History.md
+-rw-rw-r-- 1 nesko nesko 7960 mar  5  2013 .History.md.un~
+-rw-rw-r-- 1 nesko nesko  127 mar  5  2013 index.js
+-rw-rw-r-- 1 nesko nesko 1081 okt 23  2012 License.md
+-rw-rw-r-- 1 nesko nesko 1409 mar  5  2013 package.json
+-rw-rw-r-- 1 nesko nesko 5710 mar  5  2013 .package.json.un~
+-rw-rw-r-- 1 nesko nesko  331 mar  5  2013 Readme.md
+-rw-rw-r-- 1 nesko nesko 3225 mar  5  2013 .Readme.md.un~
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+-rw-rw-r-- 1 nesko nesko   43 mar  5  2013 .travis.yml
+./node_modules/querystring/test
+total 20
+-rw-rw-r-- 1 nesko nesko   54 jan 20  2013 common-index.js
+-rw-rw-r-- 1 nesko nesko 7504 mar  5  2013 index.js
+-rw-rw-r-- 1 nesko nesko  975 mar  5  2013 .index.js.un~
+-rw-rw-r-- 1 nesko nesko   52 jan 20  2013 tap-index.js
+./node_modules/get-stream
+total 20
+-rw-rw-r-- 1 nesko nesko  841 okt 26  1985 buffer-stream.js
+-rw-rw-r-- 1 nesko nesko 1251 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  713 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3963 okt 26  1985 readme.md
+./node_modules/on-headers
+total 20
+-rw-rw-r-- 1 nesko nesko  387 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2664 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1089 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1243 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2155 okt 26  1985 README.md
+./node_modules/to-regex-range
+total 32
+-rw-rw-r-- 1 nesko nesko  6481 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1091 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1782 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 13585 okt 26  1985 README.md
+./node_modules/safe-buffer
+total 44
+-rw-rw-r-- 1 nesko nesko  8738 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1529 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1081 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   783 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 19555 okt 26  1985 README.md
+./node_modules/undefsafe
+total 36
+-rw-rw-r-- 1 nesko nesko  245 feb 17  2020 example.js
+-rw-rw-r-- 1 nesko nesko  364 feb 17  2020 .jscsrc
+-rw-rw-r-- 1 nesko nesko  240 feb 17  2020 .jshintrc
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1119 feb 17  2020 LICENSE
+-rw-rw-r-- 1 nesko nesko   24 feb 17  2020 .npmignore
+-rw-rw-r-- 1 nesko nesko  851 feb 17  2020 package.json
+-rw-rw-r-- 1 nesko nesko 1414 feb 17  2020 README.md
+-rw-rw-r-- 1 nesko nesko  283 feb 17  2020 .travis.yml
+./node_modules/undefsafe/lib
+total 4
+-rw-rw-r-- 1 nesko nesko 2595 feb 17  2020 undefsafe.js
+./node_modules/semver-diff
+total 24
+-rw-rw-r-- 1 nesko nesko 1082 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  287 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  637 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2128 okt 26  1985 readme.md
+./node_modules/semver-diff/node_modules
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 .bin
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 semver
+./node_modules/semver-diff/node_modules/.bin
+total 0
+lrwxrwxrwx 1 nesko nesko 23 mar 24 03:13 semver -> ../semver/bin/semver.js
+./node_modules/semver-diff/node_modules/semver
+total 84
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko  1307 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   765 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   559 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   619 okt 26  1985 range.bnf
+-rw-rw-r-- 1 nesko nesko 16974 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 42130 okt 26  1985 semver.js
+./node_modules/semver-diff/node_modules/semver/bin
+total 8
+-rwxrwxr-x 1 nesko nesko 4717 okt 26  1985 semver.js
+./node_modules/defaults
+total 24
+-rw-rw-r-- 1 nesko nesko  277 okt  3  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1079 okt  3  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko   13 okt  3  2015 .npmignore
+-rw-rw-r-- 1 nesko nesko  522 okt  3  2015 package.json
+-rw-rw-r-- 1 nesko nesko  827 okt  3  2015 README.md
+-rw-rw-r-- 1 nesko nesko 1050 okt  3  2015 test.js
+./node_modules/unpipe
+total 20
+-rw-rw-r-- 1 nesko nesko   59 jun 14  2015 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1118 jun 14  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1114 jun 14  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko  770 jun 14  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1250 jun 14  2015 README.md
+./node_modules/registry-url
+total 20
+-rw-rw-r-- 1 nesko nesko  949 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  398 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  681 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1191 okt 26  1985 readme.md
+./node_modules/has-yarn
+total 20
+-rw-rw-r-- 1 nesko nesko  448 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  268 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  599 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  968 okt 26  1985 readme.md
+./node_modules/normalize-path
+total 20
+-rw-rw-r-- 1 nesko nesko 1024 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1088 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1666 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 5441 okt 26  1985 README.md
+./node_modules/write-file-atomic
+total 24
+-rw-rw-r-- 1 nesko nesko  893 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 6812 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  734 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1239 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3109 okt 26  1985 README.md
+./node_modules/p-cancelable
+total 24
+-rw-rw-r-- 1 nesko nesko 4564 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1927 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  821 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4094 okt 26  1985 readme.md
+./node_modules/import-lazy
+total 16
+-rw-rw-r-- 1 nesko nesko  976 jan 17  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1119 okt 25  2016 license
+-rw-rw-r-- 1 nesko nesko  720 maj 21  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1951 maj 21  2017 readme.md
+./node_modules/random-bytes
+total 20
+-rw-rw-r-- 1 nesko nesko   59 jan 17  2016 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1994 jan 17  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1118 jan 17  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko  939 jan 17  2016 package.json
+-rw-rw-r-- 1 nesko nesko 2125 jan 17  2016 README.md
+./node_modules/fresh
+total 20
+-rw-rw-r-- 1 nesko nesko 1500 sep 14  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2711 sep 14  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1174 feb 20  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1357 sep 14  2017 package.json
+-rw-rw-r-- 1 nesko nesko 3374 sep 14  2017 README.md
+./node_modules/iconv-lite
+total 32
+-rw-rw-r-- 1 nesko nesko 4342 aug 22  2018 Changelog.md
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 encodings
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1064 jan 19  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko 1227 aug 22  2018 package.json
+-rw-rw-r-- 1 nesko nesko 6534 aug 22  2018 README.md
+./node_modules/iconv-lite/encodings
+total 116
+-rw-rw-r-- 1 nesko nesko 21415 aug 22  2018 dbcs-codec.js
+-rw-rw-r-- 1 nesko nesko  8291 aug 22  2018 dbcs-data.js
+-rw-rw-r-- 1 nesko nesko   710 aug 22  2018 index.js
+-rw-rw-r-- 1 nesko nesko  6115 aug 22  2018 internal.js
+-rw-rw-r-- 1 nesko nesko  2191 aug 22  2018 sbcs-codec.js
+-rw-rw-r-- 1 nesko nesko 32034 aug 22  2018 sbcs-data-generated.js
+-rw-rw-r-- 1 nesko nesko  4686 aug 22  2018 sbcs-data.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 tables
+-rw-rw-r-- 1 nesko nesko  5011 aug 22  2018 utf16.js
+-rw-rw-r-- 1 nesko nesko  9215 aug 22  2018 utf7.js
+./node_modules/iconv-lite/encodings/tables
+total 228
+-rw-rw-r-- 1 nesko nesko 17717 jan 19  2016 big5-added.json
+-rw-rw-r-- 1 nesko nesko 47320 jan 19  2016 cp936.json
+-rw-rw-r-- 1 nesko nesko 38122 jan 19  2016 cp949.json
+-rw-rw-r-- 1 nesko nesko 42356 jan 19  2016 cp950.json
+-rw-rw-r-- 1 nesko nesko 41064 jan 19  2016 eucjp.json
+-rw-rw-r-- 1 nesko nesko  2216 jan 19  2016 gb18030-ranges.json
+-rw-rw-r-- 1 nesko nesko  1227 jan 19  2016 gbk-added.json
+-rw-rw-r-- 1 nesko nesko 23782 jan 19  2016 shiftjis.json
+./node_modules/iconv-lite/lib
+total 32
+-rw-rw-r-- 1 nesko nesko 1109 aug 22  2018 bom-handling.js
+-rw-rw-r-- 1 nesko nesko 8701 aug 22  2018 extend-node.js
+-rw-rw-r-- 1 nesko nesko  982 aug 22  2018 index.d.ts
+-rw-rw-r-- 1 nesko nesko 5123 aug 22  2018 index.js
+-rw-rw-r-- 1 nesko nesko 3387 aug 22  2018 streams.js
+./node_modules/is-path-inside
+total 20
+-rw-rw-r-- 1 nesko nesko  758 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  439 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  590 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1512 okt 26  1985 readme.md
+./node_modules/prepend-http
+total 16
+-rw-rw-r-- 1 nesko nesko  387 sep 23  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  622 sep 23  2017 package.json
+-rw-rw-r-- 1 nesko nesko  862 sep 23  2017 readme.md
+./node_modules/imurmurhash
+total 24
+-rw-rw-r-- 1 nesko nesko 4412 aug  3  2013 imurmurhash.js
+-rw-rw-r-- 1 nesko nesko 1894 aug 24  2013 imurmurhash.min.js
+-rw-rw-r-- 1 nesko nesko  818 aug 24  2013 package.json
+-rw-rw-r-- 1 nesko nesko 4763 aug 11  2013 README.md
+./node_modules/duplexer3
+total 16
+-rw-rw-r-- 1 nesko nesko 1667 jan 11  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1535 jan 11  2016 LICENSE.md
+-rw-rw-r-- 1 nesko nesko  519 jan 11  2016 package.json
+-rw-rw-r-- 1 nesko nesko 2707 jan 11  2016 README.md
+./node_modules/qs
+total 68
+-rw-rw-r-- 1 nesko nesko 14655 okt 26  1985 CHANGELOG.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 dist
+-rw-rw-r-- 1 nesko nesko   399 okt 26  1985 .editorconfig
+-rw-rw-r-- 1 nesko nesko     5 okt 26  1985 .eslintignore
+-rw-rw-r-- 1 nesko nesko   647 okt 26  1985 .eslintrc
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1654 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1716 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 18228 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 test
+./node_modules/qs/test
+total 68
+-rw-rw-r-- 1 nesko nesko   422 okt 26  1985 .eslintrc
+-rw-rw-r-- 1 nesko nesko    81 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 27758 okt 26  1985 parse.js
+-rw-rw-r-- 1 nesko nesko 24073 okt 26  1985 stringify.js
+-rw-rw-r-- 1 nesko nesko  5096 okt 26  1985 utils.js
+./node_modules/qs/dist
+total 28
+-rw-rw-r-- 1 nesko nesko 24660 okt 26  1985 qs.js
+./node_modules/qs/lib
+total 40
+-rw-rw-r-- 1 nesko nesko  387 okt 26  1985 formats.js
+-rw-rw-r-- 1 nesko nesko  211 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 8492 okt 26  1985 parse.js
+-rw-rw-r-- 1 nesko nesko 8230 okt 26  1985 stringify.js
+-rw-rw-r-- 1 nesko nesko 6204 okt 26  1985 utils.js
+./node_modules/widest-line
+total 20
+-rw-rw-r-- 1 nesko nesko  490 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  322 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  894 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  914 okt 26  1985 readme.md
+./node_modules/@szmarczak
+total 4
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 http-timer
+./node_modules/@szmarczak/http-timer
+total 16
+-rwxrwxr-x 1 nesko nesko 1071 okt 26  1985 LICENSE
+-rwxrwxr-x 1 nesko nesko  889 okt 26  1985 package.json
+-rwxrwxr-x 1 nesko nesko 2241 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 source
+./node_modules/@szmarczak/http-timer/source
+total 4
+-rwxrwxr-x 1 nesko nesko 2095 okt 26  1985 index.js
+./node_modules/readable-stream
+total 68
+-rw-rw-r-- 1 nesko nesko 1443 okt 26  1985 CONTRIBUTING.md
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 doc
+-rw-rw-r-- 1 nesko nesko   53 okt 26  1985 duplex-browser.js
+-rw-rw-r-- 1 nesko nesko   46 okt 26  1985 duplex.js
+-rw-rw-r-- 1 nesko nesko 5550 okt 26  1985 GOVERNANCE.md
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 2337 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1370 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   51 okt 26  1985 passthrough.js
+-rw-rw-r-- 1 nesko nesko  351 okt 26  1985 readable-browser.js
+-rw-rw-r-- 1 nesko nesko  771 okt 26  1985 readable.js
+-rw-rw-r-- 1 nesko nesko 2999 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko   49 okt 26  1985 transform.js
+-rw-rw-r-- 1 nesko nesko  991 okt 26  1985 .travis.yml
+-rw-rw-r-- 1 nesko nesko   55 okt 26  1985 writable-browser.js
+-rw-rw-r-- 1 nesko nesko  229 okt 26  1985 writable.js
+./node_modules/readable-stream/doc
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 wg-meetings
+./node_modules/readable-stream/doc/wg-meetings
+total 4
+-rw-rw-r-- 1 nesko nesko 2280 okt 26  1985 2015-01-30.md
+./node_modules/readable-stream/lib
+total 72
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 internal
+-rw-rw-r-- 1 nesko nesko  4015 okt 26  1985 _stream_duplex.js
+-rw-rw-r-- 1 nesko nesko  1753 okt 26  1985 _stream_passthrough.js
+-rw-rw-r-- 1 nesko nesko 31324 okt 26  1985 _stream_readable.js
+-rw-rw-r-- 1 nesko nesko  7742 okt 26  1985 _stream_transform.js
+-rw-rw-r-- 1 nesko nesko 20317 okt 26  1985 _stream_writable.js
+./node_modules/readable-stream/lib/internal
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 streams
+./node_modules/readable-stream/lib/internal/streams
+total 16
+-rw-rw-r-- 1 nesko nesko 2059 okt 26  1985 BufferList.js
+-rw-rw-r-- 1 nesko nesko 1849 okt 26  1985 destroy.js
+-rw-rw-r-- 1 nesko nesko   49 okt 26  1985 stream-browser.js
+-rw-rw-r-- 1 nesko nesko   36 okt 26  1985 stream.js
+./node_modules/configstore
+total 16
+-rw-rw-r-- 1 nesko nesko 2460 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1305 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  828 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3021 okt 26  1985 readme.md
+./node_modules/anymatch
+total 20
+-rw-rw-r-- 1 nesko nesko  660 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 3065 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  784 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  904 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4023 okt 26  1985 README.md
+./node_modules/is-ci
+total 24
+-rwxrwxr-x 1 nesko nesko   70 okt 26  1985 bin.js
+-rw-rw-r-- 1 nesko nesko  269 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   55 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1091 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  797 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1299 okt 26  1985 README.md
+./node_modules/safer-buffer
+total 60
+-rw-rw-r-- 1 nesko nesko  1483 okt 26  1985 dangerous.js
+-rw-rw-r-- 1 nesko nesko  1094 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   822 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 12794 okt 26  1985 Porting-Buffer.md
+-rw-rw-r-- 1 nesko nesko  8261 okt 26  1985 Readme.md
+-rw-rw-r-- 1 nesko nesko  2110 okt 26  1985 safer.js
+-rw-rw-r-- 1 nesko nesko 15735 okt 26  1985 tests.js
+./node_modules/nodemon
+total 56
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko    70 okt 26  1985 commitlint.config.js
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 doc
+-rw-rw-r-- 1 nesko nesko   360 okt 26  1985 .eslintrc.json
+-rw-rw-r-- 1 nesko nesko   239 okt 26  1985 .jshintrc
+drwxrwxr-x 8 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1122 okt 26  1985 LICENSE
+drwxrwxr-x 4 nesko nesko  4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  1833 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 14909 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko   345 okt 26  1985 .travis.yml
+./node_modules/nodemon/doc
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 cli
+./node_modules/nodemon/doc/cli
+total 32
+-rw-rw-r-- 1 nesko nesko  236 okt 26  1985 authors.txt
+-rw-rw-r-- 1 nesko nesko 1158 okt 26  1985 config.txt
+-rw-rw-r-- 1 nesko nesko 1268 okt 26  1985 help.txt
+-rw-rw-r-- 1 nesko nesko  799 okt 26  1985 logo.txt
+-rw-rw-r-- 1 nesko nesko 1869 okt 26  1985 options.txt
+-rw-rw-r-- 1 nesko nesko  325 okt 26  1985 topics.txt
+-rw-rw-r-- 1 nesko nesko   88 okt 26  1985 usage.txt
+-rw-rw-r-- 1 nesko nesko 1223 okt 26  1985 whoami.txt
+./node_modules/nodemon/node_modules
+total 8
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 debug
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 ms
+./node_modules/nodemon/node_modules/ms
+total 16
+-rw-rw-r-- 1 nesko nesko 3024 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1079 okt 26  1985 license.md
+-rw-rw-r-- 1 nesko nesko  732 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1886 okt 26  1985 readme.md
+./node_modules/nodemon/node_modules/debug
+total 56
+-rw-rw-r-- 1 nesko nesko 12950 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko  1107 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko    40 okt 26  1985 node.js
+-rw-rw-r-- 1 nesko nesko  1153 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 21045 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 src
+./node_modules/nodemon/node_modules/debug/src
+total 28
+-rw-rw-r-- 1 nesko nesko 6285 okt 26  1985 browser.js
+-rw-rw-r-- 1 nesko nesko 5929 okt 26  1985 common.js
+-rw-rw-r-- 1 nesko nesko  331 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 4415 okt 26  1985 node.js
+./node_modules/nodemon/bin
+total 8
+-rwxrwxr-x 1 nesko nesko  438 okt 26  1985 nodemon.js
+-rwxrwxr-x 1 nesko nesko 1035 okt 26  1985 postinstall.js
+./node_modules/nodemon/lib
+total 48
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 cli
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 config
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 help
+-rw-rw-r-- 1 nesko nesko   38 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 monitor
+-rw-rw-r-- 1 nesko nesko 8777 okt 26  1985 nodemon.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 rules
+-rw-rw-r-- 1 nesko nesko 1236 okt 26  1985 spawn.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 utils
+-rw-rw-r-- 1 nesko nesko 2465 okt 26  1985 version.js
+./node_modules/nodemon/lib/rules
+total 12
+-rw-rw-r-- 1 nesko nesko 2662 okt 26  1985 add.js
+-rw-rw-r-- 1 nesko nesko 1260 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  804 okt 26  1985 parse.js
+./node_modules/nodemon/lib/cli
+total 12
+-rw-rw-r-- 1 nesko nesko 1089 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 6039 okt 26  1985 parse.js
+./node_modules/nodemon/lib/monitor
+total 40
+-rw-rw-r-- 1 nesko nesko    82 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  6730 okt 26  1985 match.js
+-rw-rw-r-- 1 nesko nesko 14170 okt 26  1985 run.js
+-rw-rw-r-- 1 nesko nesko   488 okt 26  1985 signals.js
+-rw-rw-r-- 1 nesko nesko  6454 okt 26  1985 watch.js
+./node_modules/nodemon/lib/config
+total 28
+-rw-rw-r-- 1 nesko nesko 1249 okt 26  1985 command.js
+-rw-rw-r-- 1 nesko nesko  815 okt 26  1985 defaults.js
+-rw-rw-r-- 1 nesko nesko 6859 okt 26  1985 exec.js
+-rw-rw-r-- 1 nesko nesko 2511 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 7613 okt 26  1985 load.js
+./node_modules/nodemon/lib/utils
+total 24
+-rw-rw-r-- 1 nesko nesko  946 okt 26  1985 bus.js
+-rw-rw-r-- 1 nesko nesko  829 okt 26  1985 clone.js
+-rw-rw-r-- 1 nesko nesko  690 okt 26  1985 colour.js
+-rw-rw-r-- 1 nesko nesko 2580 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1738 okt 26  1985 log.js
+-rw-rw-r-- 1 nesko nesko 1186 okt 26  1985 merge.js
+./node_modules/nodemon/lib/help
+total 4
+-rw-rw-r-- 1 nesko nesko 733 okt 26  1985 index.js
+./node_modules/proxy-addr
+total 28
+-rw-rw-r-- 1 nesko nesko 2869 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 6000 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1094 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1201 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4400 okt 26  1985 README.md
+./node_modules/clone-response
+total 16
+-rw-rw-r-- 1 nesko nesko 1068 jun  1  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1055 aug 17  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2087 jun 30  2017 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 src
+./node_modules/clone-response/src
+total 4
+-rw-rw-r-- 1 nesko nesko 401 jun 16  2017 index.js
+./node_modules/merge-descriptors
+total 20
+-rw-rw-r-- 1 nesko nesko  363 jan 18  2016 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1215 jan 18  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1167 jan 18  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko  931 jan 18  2016 package.json
+-rw-rw-r-- 1 nesko nesko 1213 maj 22  2015 README.md
+./node_modules/ipaddr.js
+total 36
+-rw-rw-r-- 1 nesko nesko 9738 okt 26  1985 ipaddr.min.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1087 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  719 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 8309 okt 26  1985 README.md
+./node_modules/ipaddr.js/lib
+total 24
+-rw-rw-r-- 1 nesko nesko 19333 okt 26  1985 ipaddr.js
+-rw-rw-r-- 1 nesko nesko  2959 okt 26  1985 ipaddr.js.d.ts
+./node_modules/process-nextick-args
+total 16
+-rw-rw-r-- 1 nesko nesko 1083 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1064 okt 26  1985 license.md
+-rw-rw-r-- 1 nesko nesko  578 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  450 okt 26  1985 readme.md
+./node_modules/once
+total 16
+-rw-rw-r-- 1 nesko nesko  765 maj  5  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko  935 sep  6  2016 once.js
+-rw-rw-r-- 1 nesko nesko  574 sep  6  2016 package.json
+-rw-rw-r-- 1 nesko nesko 1772 sep  6  2016 README.md
+./node_modules/http-cache-semantics
+total 44
+-rw-rw-r-- 1 nesko nesko 23786 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1274 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   733 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 10387 okt 26  1985 README.md
+./node_modules/send
+total 64
+-rw-rw-r-- 1 nesko nesko 12643 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 23287 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1128 okt 26  1985 LICENSE
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  1673 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  9442 okt 26  1985 README.md
+./node_modules/send/node_modules
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 ms
+./node_modules/send/node_modules/ms
+total 16
+-rw-rw-r-- 1 nesko nesko 3034 nov 30  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1077 nov 30  2017 license.md
+-rw-rw-r-- 1 nesko nesko  705 nov 30  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2002 nov 30  2017 readme.md
+./node_modules/type-is
+total 32
+-rw-rw-r-- 1 nesko nesko 5447 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 5562 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1172 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1133 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 5183 okt 26  1985 README.md
+./node_modules/ansi-styles
+total 32
+-rw-rw-r-- 1 nesko nesko 6349 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 4139 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko 1054 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4327 okt 26  1985 readme.md
+./node_modules/console.table
+total 32
+-rw-rw-r-- 1 nesko nesko  594 jan 16  2018 bower.json
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 dist
+-rw-rw-r-- 1 nesko nesko 4437 jan 16  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1079 jan 16  2018 LICENSE-MIT
+-rw-rw-r-- 1 nesko nesko 2331 jan 16  2018 package.json
+-rw-rw-r-- 1 nesko nesko 4457 jan 16  2018 README.md
+./node_modules/console.table/dist
+total 12
+-rw-rw-r-- 1 nesko nesko 4437 jan 16  2018 console.table.js
+-rw-rw-r-- 1 nesko nesko 1841 jan 16  2018 console.table.min.js
+./node_modules/minimist
+total 32
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 example
+-rw-rw-r-- 1 nesko nesko 7652 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1073 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  883 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2494 okt 26  1985 readme.markdown
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+-rw-rw-r-- 1 nesko nesko  116 okt 26  1985 .travis.yml
+./node_modules/minimist/example
+total 4
+-rw-rw-r-- 1 nesko nesko 69 okt 26  1985 parse.js
+./node_modules/minimist/test
+total 68
+-rw-rw-r-- 1 nesko nesko  756 okt 26  1985 all_bool.js
+-rw-rw-r-- 1 nesko nesko 4208 okt 26  1985 bool.js
+-rw-rw-r-- 1 nesko nesko  980 okt 26  1985 dash.js
+-rw-rw-r-- 1 nesko nesko  778 okt 26  1985 default_bool.js
+-rw-rw-r-- 1 nesko nesko  588 okt 26  1985 dotted.js
+-rw-rw-r-- 1 nesko nesko  376 okt 26  1985 kv_short.js
+-rw-rw-r-- 1 nesko nesko  779 okt 26  1985 long.js
+-rw-rw-r-- 1 nesko nesko  909 okt 26  1985 num.js
+-rw-rw-r-- 1 nesko nesko 4606 okt 26  1985 parse.js
+-rw-rw-r-- 1 nesko nesko  238 okt 26  1985 parse_modified.js
+-rw-rw-r-- 1 nesko nesko 1226 okt 26  1985 proto.js
+-rw-rw-r-- 1 nesko nesko 1593 okt 26  1985 short.js
+-rw-rw-r-- 1 nesko nesko  328 okt 26  1985 stop_early.js
+-rw-rw-r-- 1 nesko nesko 2541 okt 26  1985 unknown.js
+-rw-rw-r-- 1 nesko nesko  191 okt 26  1985 whitespace.js
+./node_modules/path-to-regexp
+total 20
+-rw-rw-r-- 1 nesko nesko  694 jul 28  2015 History.md
+-rw-rw-r-- 1 nesko nesko 3328 jul 28  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1103 jul 28  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko  554 jul 28  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1102 jul 28  2015 Readme.md
+./node_modules/mime-types
+total 24
+-rw-rw-r-- 1 nesko nesko 7570 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 3663 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1167 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1179 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3660 okt 26  1985 README.md
+./node_modules/uid-safe
+total 20
+-rw-rw-r-- 1 nesko nesko  944 aug  3  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1931 jul 26  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1176 jul 26  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1259 aug  3  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2157 jul 26  2017 README.md
+./node_modules/range-parser
+total 20
+-rw-rw-r-- 1 nesko nesko  917 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2900 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1178 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1184 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2278 okt 26  1985 README.md
+./node_modules/xdg-basedir
+total 20
+-rw-rw-r-- 1 nesko nesko 1566 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  801 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  642 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1575 okt 26  1985 readme.md
+./node_modules/is-typedarray
+total 20
+-rw-rw-r-- 1 nesko nesko 1016 maj 17  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1073 jun  1  2014 LICENSE.md
+-rw-rw-r-- 1 nesko nesko  665 maj 17  2015 package.json
+-rw-rw-r-- 1 nesko nesko  558 jun  1  2014 README.md
+-rw-rw-r-- 1 nesko nesko 1095 jun  1  2014 test.js
+./node_modules/vary
+total 20
+-rw-rw-r-- 1 nesko nesko  792 sep 24  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2930 sep 23  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1094 mar 20  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1215 sep 24  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2716 mar 20  2017 README.md
+./node_modules/is-extglob
+total 16
+-rw-rw-r-- 1 nesko nesko  441 okt 13  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1087 feb 20  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko 1220 dec 11  2016 package.json
+-rw-rw-r-- 1 nesko nesko 3469 sep  3  2016 README.md
+./node_modules/mimic-response
+total 16
+-rw-rw-r-- 1 nesko nesko  758 jul 11  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  651 jul 11  2018 package.json
+-rw-rw-r-- 1 nesko nesko 1066 jun  2  2017 readme.md
+./node_modules/depd
+total 40
+-rw-rw-r-- 1 nesko nesko  2060 jan 12  2018 History.md
+-rw-rw-r-- 1 nesko nesko 10669 jan 12  2018 index.js
+drwxrwxr-x 4 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1094 jan 12  2018 LICENSE
+-rw-rw-r-- 1 nesko nesko  1135 jan 12  2018 package.json
+-rw-rw-r-- 1 nesko nesko 10025 jan 12  2018 Readme.md
+./node_modules/depd/lib
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 browser
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 compat
+./node_modules/depd/lib/browser
+total 4
+-rw-rw-r-- 1 nesko nesko 1512 jul 27  2017 index.js
+./node_modules/depd/lib/compat
+total 12
+-rw-rw-r-- 1 nesko nesko 2229 jan 12  2018 callsite-tostring.js
+-rw-rw-r-- 1 nesko nesko  338 jan 12  2018 event-listener-count.js
+-rw-rw-r-- 1 nesko nesko 1421 jan 12  2018 index.js
+./node_modules/is-yarn-global
+total 20
+-rw-rw-r-- 1 nesko nesko  309 feb 15  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1065 jan 12  2018 LICENSE
+-rw-rw-r-- 1 nesko nesko  366 feb 15  2018 package.json
+-rw-rw-r-- 1 nesko nesko  769 jan 12  2018 README.md
+-rw-rw-r-- 1 nesko nesko   43 jan 12  2018 .travis.yml
+./node_modules/bytes
+total 20
+-rw-rw-r-- 1 nesko nesko 1581 okt 26  1985 History.md
+-rw-rw-r-- 1 nesko nesko 3469 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1153 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  904 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3890 okt 26  1985 Readme.md
+./node_modules/binary-extensions
+total 28
+-rw-rw-r-- 1 nesko nesko 2158 okt 26  1985 binary-extensions.json
+-rw-rw-r-- 1 nesko nesko   87 okt 26  1985 binary-extensions.json.d.ts
+-rw-rw-r-- 1 nesko nesko  249 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko   54 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1159 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  652 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  997 okt 26  1985 readme.md
+./node_modules/normalize-url
+total 32
+-rw-rw-r-- 1 nesko nesko 4952 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 6040 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  707 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 5291 okt 26  1985 readme.md
+./node_modules/promise-mysql
+total 36
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 .github
+-rw-rw-r-- 1 nesko nesko 3673 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  533 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1083 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1104 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 8505 okt 26  1985 README.md
+./node_modules/promise-mysql/.github
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 workflows
+./node_modules/promise-mysql/.github/workflows
+total 4
+-rw-rw-r-- 1 nesko nesko 694 okt 26  1985 node.js.yml
+./node_modules/promise-mysql/lib
+total 24
+-rw-rw-r-- 1 nesko nesko 4249 okt 26  1985 connection.js
+-rw-rw-r-- 1 nesko nesko  825 okt 26  1985 helper.js
+-rw-rw-r-- 1 nesko nesko 1515 okt 26  1985 poolCluster.js
+-rw-rw-r-- 1 nesko nesko  265 okt 26  1985 poolConnection.js
+-rw-rw-r-- 1 nesko nesko 2104 okt 26  1985 pool.js
+./node_modules/cookie-signature
+total 20
+-rw-rw-r-- 1 nesko nesko  695 feb  3  2015 History.md
+-rw-rw-r-- 1 nesko nesko 1230 feb  3  2015 index.js
+-rw-rw-r-- 1 nesko nesko   29 jan 28  2014 .npmignore
+-rw-rw-r-- 1 nesko nesko  492 feb  3  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1490 jun 19  2014 Readme.md
+./node_modules/is-installed-globally
+total 20
+-rw-rw-r-- 1 nesko nesko  379 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  346 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  931 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  983 okt 26  1985 readme.md
+./node_modules/keyv
+total 24
+-rw-rw-r-- 1 nesko nesko  1068 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1183 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 10115 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 src
+./node_modules/keyv/src
+total 4
+-rw-rw-r-- 1 nesko nesko 2295 okt 26  1985 index.js
+./node_modules/encodeurl
+total 20
+-rw-rw-r-- 1 nesko nesko  238 jan 22  2018 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1586 jan 22  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1089 jan 22  2018 LICENSE
+-rw-rw-r-- 1 nesko nesko 1091 jan 22  2018 package.json
+-rw-rw-r-- 1 nesko nesko 3855 jan 22  2018 README.md
+./node_modules/escape-html
+total 16
+-rw-rw-r-- 1 nesko nesko 1362 sep  1  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1157 sep  1  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko  434 sep  1  2015 package.json
+-rw-rw-r-- 1 nesko nesko  707 sep  1  2015 Readme.md
+./node_modules/punycode
+total 32
+-rw-rw-r-- 1 nesko nesko  1077 aug 20  2014 LICENSE-MIT.txt
+-rw-rw-r-- 1 nesko nesko  1114 okt 22  2014 package.json
+-rw-rw-r-- 1 nesko nesko 14649 okt 22  2014 punycode.js
+-rw-rw-r-- 1 nesko nesko  5988 aug 31  2014 README.md
+./node_modules/dot-prop
+total 20
+-rw-rw-r-- 1 nesko nesko 2543 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 2770 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  746 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2439 okt 26  1985 readme.md
+./node_modules/mysql
+total 104
+-rw-rw-r-- 1 nesko nesko 21090 okt 26  1985 Changes.md
+-rw-rw-r-- 1 nesko nesko  4533 okt 26  1985 index.js
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1118 okt 26  1985 License
+-rw-rw-r-- 1 nesko nesko  1372 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 57600 okt 26  1985 Readme.md
+./node_modules/mysql/lib
+total 60
+-rw-rw-r-- 1 nesko nesko  6614 okt 26  1985 ConnectionConfig.js
+-rw-rw-r-- 1 nesko nesko 13831 okt 26  1985 Connection.js
+-rw-rw-r-- 1 nesko nesko  6470 okt 26  1985 PoolCluster.js
+-rw-rw-r-- 1 nesko nesko  1057 okt 26  1985 PoolConfig.js
+-rw-rw-r-- 1 nesko nesko  1697 okt 26  1985 PoolConnection.js
+-rw-rw-r-- 1 nesko nesko  7586 okt 26  1985 Pool.js
+-rw-rw-r-- 1 nesko nesko  3220 okt 26  1985 PoolNamespace.js
+-rw-rw-r-- 1 nesko nesko   588 okt 26  1985 PoolSelector.js
+drwxrwxr-x 5 nesko nesko  4096 mar 24 03:13 protocol
+./node_modules/mysql/lib/protocol
+total 76
+-rw-rw-r-- 1 nesko nesko  4292 okt 26  1985 Auth.js
+-rw-rw-r-- 1 nesko nesko   385 okt 26  1985 BufferList.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 constants
+-rw-rw-r-- 1 nesko nesko   121 okt 26  1985 PacketHeader.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 packets
+-rw-rw-r-- 1 nesko nesko  5372 okt 26  1985 PacketWriter.js
+-rw-rw-r-- 1 nesko nesko 13406 okt 26  1985 Parser.js
+-rw-rw-r-- 1 nesko nesko 11657 okt 26  1985 Protocol.js
+-rw-rw-r-- 1 nesko nesko   233 okt 26  1985 ResultSet.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 sequences
+-rw-rw-r-- 1 nesko nesko    39 okt 26  1985 SqlString.js
+-rw-rw-r-- 1 nesko nesko   699 okt 26  1985 Timer.js
+./node_modules/mysql/lib/protocol/constants
+total 284
+-rw-rw-r-- 1 nesko nesko  11398 okt 26  1985 charsets.js
+-rw-rw-r-- 1 nesko nesko   1629 okt 26  1985 client.js
+-rw-rw-r-- 1 nesko nesko 176038 okt 26  1985 errors.js
+-rw-rw-r-- 1 nesko nesko   1066 okt 26  1985 field_flags.js
+-rw-rw-r-- 1 nesko nesko   1449 okt 26  1985 server_status.js
+-rw-rw-r-- 1 nesko nesko  82511 okt 26  1985 ssl_profiles.js
+-rw-rw-r-- 1 nesko nesko   1763 okt 26  1985 types.js
+./node_modules/mysql/lib/protocol/sequences
+total 36
+-rw-rw-r-- 1 nesko nesko 2071 okt 26  1985 ChangeUser.js
+-rw-rw-r-- 1 nesko nesko 3723 okt 26  1985 Handshake.js
+-rw-rw-r-- 1 nesko nesko  282 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  434 okt 26  1985 Ping.js
+-rw-rw-r-- 1 nesko nesko 5705 okt 26  1985 Query.js
+-rw-rw-r-- 1 nesko nesko  861 okt 26  1985 Quit.js
+-rw-rw-r-- 1 nesko nesko 3231 okt 26  1985 Sequence.js
+-rw-rw-r-- 1 nesko nesko  727 okt 26  1985 Statistics.js
+./node_modules/mysql/lib/protocol/packets
+total 96
+-rw-rw-r-- 1 nesko nesko  707 okt 26  1985 AuthSwitchRequestPacket.js
+-rw-rw-r-- 1 nesko nesko  375 okt 26  1985 AuthSwitchResponsePacket.js
+-rw-rw-r-- 1 nesko nesko 2080 okt 26  1985 ClientAuthenticationPacket.js
+-rw-rw-r-- 1 nesko nesko  960 okt 26  1985 ComChangeUserPacket.js
+-rw-rw-r-- 1 nesko nesko  289 okt 26  1985 ComPingPacket.js
+-rw-rw-r-- 1 nesko nesko  405 okt 26  1985 ComQueryPacket.js
+-rw-rw-r-- 1 nesko nesko  301 okt 26  1985 ComQuitPacket.js
+-rw-rw-r-- 1 nesko nesko  313 okt 26  1985 ComStatisticsPacket.js
+-rw-rw-r-- 1 nesko nesko  163 okt 26  1985 EmptyPacket.js
+-rw-rw-r-- 1 nesko nesko  721 okt 26  1985 EofPacket.js
+-rw-rw-r-- 1 nesko nesko 1007 okt 26  1985 ErrorPacket.js
+-rw-rw-r-- 1 nesko nesko  649 okt 26  1985 Field.js
+-rw-rw-r-- 1 nesko nesko 3264 okt 26  1985 FieldPacket.js
+-rw-rw-r-- 1 nesko nesko 3958 okt 26  1985 HandshakeInitializationPacket.js
+-rw-rw-r-- 1 nesko nesko 1360 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  319 okt 26  1985 LocalDataFilePacket.js
+-rw-rw-r-- 1 nesko nesko  609 okt 26  1985 LocalInfileRequestPacket.js
+-rw-rw-r-- 1 nesko nesko 1414 okt 26  1985 OkPacket.js
+-rw-rw-r-- 1 nesko nesko  367 okt 26  1985 OldPasswordPacket.js
+-rw-rw-r-- 1 nesko nesko  381 okt 26  1985 ResultSetHeaderPacket.js
+-rw-rw-r-- 1 nesko nesko 4088 okt 26  1985 RowDataPacket.js
+-rw-rw-r-- 1 nesko nesko  983 okt 26  1985 SSLRequestPacket.js
+-rw-rw-r-- 1 nesko nesko  544 okt 26  1985 StatisticsPacket.js
+-rw-rw-r-- 1 nesko nesko  379 okt 26  1985 UseOldPasswordPacket.js
+./node_modules/content-disposition
+total 32
+-rw-rw-r-- 1 nesko nesko   952 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 10594 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1094 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1238 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  5237 okt 26  1985 README.md
+./node_modules/is-npm
+total 20
+-rw-rw-r-- 1 nesko nesko  780 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  309 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  600 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1996 okt 26  1985 readme.md
+./node_modules/escape-goat
+total 20
+-rw-rw-r-- 1 nesko nesko 1738 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  797 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  718 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1914 okt 26  1985 readme.md
+./node_modules/body-parser
+total 52
+-rw-rw-r-- 1 nesko nesko 15113 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko  2656 okt 26  1985 index.js
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1172 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1556 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 17100 okt 26  1985 README.md
+./node_modules/body-parser/lib
+total 8
+-rw-rw-r-- 1 nesko nesko 3894 okt 26  1985 read.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 types
+./node_modules/body-parser/lib/types
+total 24
+-rw-rw-r-- 1 nesko nesko 4918 okt 26  1985 json.js
+-rw-rw-r-- 1 nesko nesko 1884 okt 26  1985 raw.js
+-rw-rw-r-- 1 nesko nesko 2285 okt 26  1985 text.js
+-rw-rw-r-- 1 nesko nesko 5797 okt 26  1985 urlencoded.js
+./node_modules/statuses
+total 24
+-rw-rw-r-- 1 nesko nesko 1821 mar 28  2018 codes.json
+-rw-rw-r-- 1 nesko nesko 1023 mar 28  2018 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2088 okt 20  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1172 okt 20  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1472 mar 28  2018 package.json
+-rw-rw-r-- 1 nesko nesko 3458 okt 20  2017 README.md
+./node_modules/registry-auth-token
+total 28
+-rw-rw-r-- 1 nesko nesko  264 okt 26  1985 base64.js
+-rw-rw-r-- 1 nesko nesko 3287 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 3846 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1084 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1021 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1987 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko  231 okt 26  1985 registry-url.js
+./node_modules/is-binary-path
+total 20
+-rw-rw-r-- 1 nesko nesko  290 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  239 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1159 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  657 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  733 okt 26  1985 readme.md
+./node_modules/url
+total 100
+-rw-rw-r-- 1 nesko nesko  1099 jan  2  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko    12 apr 17  2014 .npmignore
+-rw-rw-r-- 1 nesko nesko   560 aug 27  2015 package.json
+-rw-rw-r-- 1 nesko nesko  3604 aug 27  2015 README.md
+-rw-rw-r-- 1 nesko nesko 47196 aug 27  2015 test.js
+-rw-rw-r-- 1 nesko nesko   423 apr 17  2014 .travis.yml
+-rw-rw-r-- 1 nesko nesko 23317 aug 27  2015 url.js
+-rw-rw-r-- 1 nesko nesko   314 aug 27  2015 util.js
+-rw-rw-r-- 1 nesko nesko   310 apr 22  2014 .zuul.yml
+./node_modules/clone
+total 28
+-rw-rw-r-- 1 nesko nesko  411 jan  6  2016 clone.iml
+-rw-rw-r-- 1 nesko nesko 4389 mar 21  2018 clone.js
+-rw-rw-r-- 1 nesko nesko 1070 jan 14  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko   45 mar 21  2018 .npmignore
+-rw-rw-r-- 1 nesko nesko 1632 mar 21  2018 package.json
+-rw-rw-r-- 1 nesko nesko 3585 mar 21  2018 README.md
+./node_modules/got
+total 56
+-rw-rw-r-- 1 nesko nesko  1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  1323 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 44187 okt 26  1985 readme.md
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 source
+./node_modules/got/source
+total 60
+-rw-rw-r-- 1 nesko nesko 2878 okt 26  1985 as-promise.js
+-rw-rw-r-- 1 nesko nesko 2310 okt 26  1985 as-stream.js
+-rw-rw-r-- 1 nesko nesko 2106 okt 26  1985 create.js
+-rw-rw-r-- 1 nesko nesko 2842 okt 26  1985 errors.js
+-rw-rw-r-- 1 nesko nesko  935 okt 26  1985 get-response.js
+-rw-rw-r-- 1 nesko nesko  939 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  132 okt 26  1985 known-hook-events.js
+-rw-rw-r-- 1 nesko nesko 1858 okt 26  1985 merge.js
+-rw-rw-r-- 1 nesko nesko 7549 okt 26  1985 normalize-arguments.js
+-rw-rw-r-- 1 nesko nesko 2324 okt 26  1985 progress.js
+-rw-rw-r-- 1 nesko nesko 8856 okt 26  1985 request-as-event-emitter.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 utils
+./node_modules/got/source/utils
+total 24
+-rw-rw-r-- 1 nesko nesko  276 okt 26  1985 deep-freeze.js
+-rw-rw-r-- 1 nesko nesko  644 okt 26  1985 get-body-size.js
+-rw-rw-r-- 1 nesko nesko  134 okt 26  1985 is-form-data.js
+-rw-rw-r-- 1 nesko nesko 4421 okt 26  1985 timed-out.js
+-rw-rw-r-- 1 nesko nesko  588 okt 26  1985 url-to-options.js
+./node_modules/accepts
+total 28
+-rw-rw-r-- 1 nesko nesko 4972 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 5252 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1167 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1174 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4081 okt 26  1985 README.md
+./node_modules/on-finished
+total 24
+-rw-rw-r-- 1 nesko nesko 1694 maj 27  2015 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 3686 maj 26  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1167 aug 16  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  878 maj 27  2015 package.json
+-rw-rw-r-- 1 nesko nesko 4886 maj 26  2015 README.md
+./node_modules/json-buffer
+total 28
+-rw-rw-r-- 1 nesko nesko 1503 jul 17  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1071 jul 17  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko   42 jul 17  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko  878 jul 17  2017 package.json
+-rw-rw-r-- 1 nesko nesko  658 jul 17  2017 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+-rw-rw-r-- 1 nesko nesko   38 jul 17  2017 .travis.yml
+./node_modules/json-buffer/test
+total 4
+-rw-rw-r-- 1 nesko nesko 1246 jul 17  2017 index.js
+./node_modules/chokidar
+total 60
+-rw-rw-r-- 1 nesko nesko 28224 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1129 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1698 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 14222 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 types
+./node_modules/chokidar/types
+total 8
+-rw-rw-r-- 1 nesko nesko 6263 okt 26  1985 index.d.ts
+./node_modules/chokidar/lib
+total 40
+-rw-rw-r-- 1 nesko nesko  1768 okt 26  1985 constants.js
+-rw-rw-r-- 1 nesko nesko 16261 okt 26  1985 fsevents-handler.js
+-rw-rw-r-- 1 nesko nesko 19969 okt 26  1985 nodefs-handler.js
+./node_modules/easy-table
+total 32
+-rw-rw-r-- 1 nesko nesko 1519 apr  6  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko   27 apr  6  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko  523 apr  6  2017 package.json
+-rw-rw-r-- 1 nesko nesko 5723 apr  6  2017 README.md
+-rw-rw-r-- 1 nesko nesko 9480 apr  6  2017 table.js
+./node_modules/cacheable-request
+total 24
+-rw-rw-r-- 1 nesko nesko 1068 okt 26  1985 LICENSE
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko 1160 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 7586 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 src
+./node_modules/cacheable-request/node_modules
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 get-stream
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lowercase-keys
+./node_modules/cacheable-request/node_modules/get-stream
+total 28
+-rw-rw-r-- 1 nesko nesko  894 okt 26  1985 buffer-stream.js
+-rw-rw-r-- 1 nesko nesko 3752 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1444 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1117 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  858 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4332 okt 26  1985 readme.md
+./node_modules/cacheable-request/node_modules/lowercase-keys
+total 20
+-rw-rw-r-- 1 nesko nesko  351 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  178 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  614 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  529 okt 26  1985 readme.md
+./node_modules/cacheable-request/src
+total 8
+-rw-rw-r-- 1 nesko nesko 6936 okt 26  1985 index.js
+./node_modules/core-util-is
+total 36
+-rw-rw-r-- 1 nesko nesko 16278 nov 20  2015 float.patch
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1077 nov 20  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko   651 nov 20  2015 package.json
+-rw-rw-r-- 1 nesko nesko    67 nov 20  2015 README.md
+-rw-rw-r-- 1 nesko nesko  2101 nov 20  2015 test.js
+./node_modules/core-util-is/lib
+total 4
+-rw-rw-r-- 1 nesko nesko 3021 nov 20  2015 util.js
+./node_modules/nodemonitor
+total 16
+-rw-rw-r-- 1 nesko nesko 1650 aug  3  2012 index.js
+-rw-rw-r-- 1 nesko nesko   96 aug  3  2012 .npmignore
+-rw-rw-r-- 1 nesko nesko  355 aug  3  2012 package.json
+-rw-rw-r-- 1 nesko nesko  741 aug  3  2012 README.md
+./node_modules/sqlstring
+total 28
+-rw-rw-r-- 1 nesko nesko  859 feb 25  2018 HISTORY.md
+-rw-rw-r-- 1 nesko nesko   45 okt  2  2017 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1118 mar 31  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1188 feb 25  2018 package.json
+-rw-rw-r-- 1 nesko nesko 7969 okt  2  2017 README.md
+./node_modules/sqlstring/lib
+total 8
+-rw-rw-r-- 1 nesko nesko 5858 feb 25  2018 SqlString.js
+./node_modules/ms
+total 16
+-rw-rw-r-- 1 nesko nesko 2764 maj 16  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1077 maj 16  2017 license.md
+-rw-rw-r-- 1 nesko nesko  704 maj 16  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1721 maj 16  2017 readme.md
+./node_modules/strip-json-comments
+total 16
+-rw-rw-r-- 1 nesko nesko 1700 feb  9  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1119 apr  6  2014 license
+-rw-rw-r-- 1 nesko nesko  749 feb  9  2016 package.json
+-rw-rw-r-- 1 nesko nesko 1493 nov 18  2015 readme.md
+./node_modules/deep-extend
+total 24
+-rw-rw-r-- 1 nesko nesko 1155 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   47 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1093 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1312 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1290 okt 26  1985 README.md
+./node_modules/deep-extend/lib
+total 8
+-rw-rw-r-- 1 nesko nesko 4293 okt 26  1985 deep-extend.js
+./node_modules/url-parse-lax
+total 16
+-rw-rw-r-- 1 nesko nesko  376 nov  3  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  716 nov  3  2017 package.json
+-rw-rw-r-- 1 nesko nesko 2030 nov  3  2017 readme.md
+./node_modules/lowercase-keys
+total 16
+-rw-rw-r-- 1 nesko nesko  208 okt 25  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1119 okt 25  2016 license
+-rw-rw-r-- 1 nesko nesko  596 mar 23  2018 package.json
+-rw-rw-r-- 1 nesko nesko  533 okt 25  2016 readme.md
+./node_modules/is-obj
+total 20
+-rw-rw-r-- 1 nesko nesko  345 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  144 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  535 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  688 okt 26  1985 readme.md
+./node_modules/is-number
+total 20
+-rw-rw-r-- 1 nesko nesko  411 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1091 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1599 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 6514 okt 26  1985 README.md
+./node_modules/cli-boxes
+total 24
+-rw-rw-r-- 1 nesko nesko 1037 okt 26  1985 boxes.json
+-rw-rw-r-- 1 nesko nesko 1545 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  167 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1117 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  692 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1580 okt 26  1985 readme.md
+./node_modules/package-json
+total 28
+-rw-rw-r-- 1 nesko nesko 6001 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 2789 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  813 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3565 okt 26  1985 readme.md
+./node_modules/package-json/node_modules
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 .bin
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 semver
+./node_modules/package-json/node_modules/.bin
+total 0
+lrwxrwxrwx 1 nesko nesko 23 mar 24 03:13 semver -> ../semver/bin/semver.js
+./node_modules/package-json/node_modules/semver
+total 84
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko  1307 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   765 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   559 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   619 okt 26  1985 range.bnf
+-rw-rw-r-- 1 nesko nesko 16974 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 42130 okt 26  1985 semver.js
+./node_modules/package-json/node_modules/semver/bin
+total 8
+-rwxrwxr-x 1 nesko nesko 4717 okt 26  1985 semver.js
+./node_modules/ci-info
+total 28
+-rw-rw-r-- 1 nesko nesko 2004 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 1739 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1091 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  798 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4146 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 3030 okt 26  1985 vendors.json
+./node_modules/color-convert
+total 44
+-rw-rw-r-- 1 nesko nesko  1417 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 17040 okt 26  1985 conversions.js
+-rw-rw-r-- 1 nesko nesko  1708 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1087 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   827 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  2853 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko  2257 okt 26  1985 route.js
+./node_modules/isarray
+total 32
+-rw-rw-r-- 1 nesko nesko  470 dec 10  2015 component.json
+-rw-rw-r-- 1 nesko nesko  132 dec 10  2015 index.js
+-rw-rw-r-- 1 nesko nesko   55 dec 10  2015 Makefile
+-rw-rw-r-- 1 nesko nesko   13 dec 10  2015 .npmignore
+-rw-rw-r-- 1 nesko nesko  958 dec 10  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1890 dec 10  2015 README.md
+-rw-rw-r-- 1 nesko nesko  320 dec 10  2015 test.js
+-rw-rw-r-- 1 nesko nesko   48 dec 10  2015 .travis.yml
+./node_modules/finalhandler
+total 24
+-rw-rw-r-- 1 nesko nesko 4080 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 6518 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1119 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1314 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4012 okt 26  1985 README.md
+./node_modules/pupa
+total 20
+-rw-rw-r-- 1 nesko nesko  746 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1100 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  734 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1248 okt 26  1985 readme.md
+./node_modules/crypto-random-string
+total 20
+-rw-rw-r-- 1 nesko nesko  444 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  253 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  655 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1468 okt 26  1985 readme.md
+./node_modules/express-session
+total 84
+-rw-rw-r-- 1 nesko nesko 10122 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 16079 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1205 okt 26  1985 LICENSE
+drwxrwxr-x 4 nesko nesko  4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  1322 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 38003 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 session
+./node_modules/express-session/node_modules
+total 8
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 depd
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 safe-buffer
+./node_modules/express-session/node_modules/safe-buffer
+total 44
+-rw-rw-r-- 1 nesko nesko  8738 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1585 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1081 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   783 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 19737 okt 26  1985 README.md
+./node_modules/express-session/node_modules/depd
+total 40
+-rw-rw-r-- 1 nesko nesko  2256 okt 26  1985 History.md
+-rw-rw-r-- 1 nesko nesko 10932 okt 26  1985 index.js
+drwxrwxr-x 3 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1094 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1335 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  9988 okt 26  1985 Readme.md
+./node_modules/express-session/node_modules/depd/lib
+total 4
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 browser
+./node_modules/express-session/node_modules/depd/lib/browser
+total 4
+-rw-rw-r-- 1 nesko nesko 1512 okt 26  1985 index.js
+./node_modules/express-session/session
+total 16
+-rw-rw-r-- 1 nesko nesko 2593 okt 26  1985 cookie.js
+-rw-rw-r-- 1 nesko nesko 3553 okt 26  1985 memory.js
+-rw-rw-r-- 1 nesko nesko 3032 okt 26  1985 session.js
+-rw-rw-r-- 1 nesko nesko 1895 okt 26  1985 store.js
+./node_modules/concat-map
+total 28
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 example
+-rw-rw-r-- 1 nesko nesko  345 dec  8  2012 index.js
+-rw-rw-r-- 1 nesko nesko 1073 jan 30  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  989 jan 30  2014 package.json
+-rw-rw-r-- 1 nesko nesko 1165 nov 28  2012 README.markdown
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+-rw-rw-r-- 1 nesko nesko   43 jun  8  2012 .travis.yml
+./node_modules/concat-map/example
+total 4
+-rw-rw-r-- 1 nesko nesko 171 jun  8  2012 map.js
+./node_modules/concat-map/test
+total 4
+-rw-rw-r-- 1 nesko nesko 1075 nov 28  2012 map.js
+./node_modules/chalk
+total 40
+-rw-rw-r-- 1 nesko nesko  8556 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1109 okt 26  1985 license
+drwxrwxr-x 4 nesko nesko  4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko   996 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 11809 okt 26  1985 readme.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 source
+./node_modules/chalk/node_modules
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 has-flag
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 supports-color
+./node_modules/chalk/node_modules/has-flag
+total 20
+-rw-rw-r-- 1 nesko nesko  684 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  330 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  696 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1600 okt 26  1985 readme.md
+./node_modules/chalk/node_modules/supports-color
+total 20
+-rw-rw-r-- 1 nesko nesko   67 okt 26  1985 browser.js
+-rw-rw-r-- 1 nesko nesko 2748 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  817 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2294 okt 26  1985 readme.md
+./node_modules/chalk/source
+total 16
+-rw-rw-r-- 1 nesko nesko 5863 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 3361 okt 26  1985 templates.js
+-rw-rw-r-- 1 nesko nesko 1035 okt 26  1985 util.js
+./node_modules/boxen
+total 20
+-rw-rw-r-- 1 nesko nesko 3069 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 3844 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  898 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3741 okt 26  1985 readme.md
+./node_modules/touch
+total 24
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko 5038 jul  1  2017 index.js
+-rw-rw-r-- 1 nesko nesko  748 jan 25  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  654 jul  1  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1224 jul  1  2017 README.md
+./node_modules/touch/bin
+total 4
+-rwxrwxr-x 1 nesko nesko 2612 jul  1  2017 nodetouch.js
+./node_modules/ee-first
+total 16
+-rw-rw-r-- 1 nesko nesko 1684 maj 25  2015 index.js
+-rw-rw-r-- 1 nesko nesko 1099 aug 15  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  859 maj 25  2015 package.json
+-rw-rw-r-- 1 nesko nesko 2617 maj 25  2015 README.md
+./node_modules/string-width
+total 24
+-rw-rw-r-- 1 nesko nesko  792 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  879 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+drwxrwxr-x 6 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko  941 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1530 okt 26  1985 readme.md
+./node_modules/string-width/node_modules
+total 16
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 ansi-regex
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 emoji-regex
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 is-fullwidth-code-point
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 strip-ansi
+./node_modules/string-width/node_modules/emoji-regex
+total 44
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 es2015
+-rw-rw-r-- 1 nesko nesko   427 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 10286 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1077 okt 26  1985 LICENSE-MIT.txt
+-rw-rw-r-- 1 nesko nesko  1278 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  2691 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 10287 okt 26  1985 text.js
+./node_modules/string-width/node_modules/emoji-regex/es2015
+total 24
+-rw-rw-r-- 1 nesko nesko 11104 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 11105 okt 26  1985 text.js
+./node_modules/string-width/node_modules/strip-ansi
+total 20
+-rw-rw-r-- 1 nesko nesko  369 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  154 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  798 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1599 okt 26  1985 readme.md
+./node_modules/string-width/node_modules/ansi-regex
+total 20
+-rw-rw-r-- 1 nesko nesko  744 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  317 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  841 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2681 okt 26  1985 readme.md
+./node_modules/string-width/node_modules/is-fullwidth-code-point
+total 20
+-rw-rw-r-- 1 nesko nesko  549 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1756 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  737 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  843 okt 26  1985 readme.md
+./node_modules/camelcase
+total 20
+-rw-rw-r-- 1 nesko nesko 1280 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 2098 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  746 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2214 okt 26  1985 readme.md
+./node_modules/raw-body
+total 36
+-rw-rw-r-- 1 nesko nesko 5354 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2286 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 6059 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1181 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1473 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 6339 okt 26  1985 README.md
+./node_modules/negotiator
+total 28
+-rw-rw-r-- 1 nesko nesko 2406 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 3344 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1177 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1011 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4811 okt 26  1985 README.md
+./node_modules/negotiator/lib
+total 20
+-rw-rw-r-- 1 nesko nesko 3081 okt 26  1985 charset.js
+-rw-rw-r-- 1 nesko nesko 3506 okt 26  1985 encoding.js
+-rw-rw-r-- 1 nesko nesko 3408 okt 26  1985 language.js
+-rw-rw-r-- 1 nesko nesko 5358 okt 26  1985 mediaType.js
+./node_modules/abbrev
+total 16
+-rw-rw-r-- 1 nesko nesko 1763 feb 14  2017 abbrev.js
+-rw-rw-r-- 1 nesko nesko 2011 sep 28  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko  509 sep 28  2017 package.json
+-rw-rw-r-- 1 nesko nesko  499 okt  4  2010 README.md
+./node_modules/graceful-fs
+total 48
+-rw-rw-r-- 1 nesko nesko  496 okt 26  1985 clone.js
+-rw-rw-r-- 1 nesko nesko 9469 okt 26  1985 graceful-fs.js
+-rw-rw-r-- 1 nesko nesko 2655 okt 26  1985 legacy-streams.js
+-rw-rw-r-- 1 nesko nesko  781 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  988 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 9740 okt 26  1985 polyfills.js
+-rw-rw-r-- 1 nesko nesko 4454 okt 26  1985 README.md
+./node_modules/mime
+total 68
+-rw-rw-r-- 1 nesko nesko  9473 nov 25  2017 CHANGELOG.md
+-rwxrwxr-x 1 nesko nesko   149 nov 25  2017 cli.js
+-rw-rw-r-- 1 nesko nesko  1098 nov 23  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko  2726 nov 25  2017 mime.js
+-rw-rw-r-- 1 nesko nesko     0 nov 25  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko   933 nov 25  2017 package.json
+-rw-rw-r-- 1 nesko nesko  2119 nov 25  2017 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 src
+-rw-rw-r-- 1 nesko nesko 31555 nov 25  2017 types.json
+./node_modules/mime/src
+total 8
+-rwxrwxr-x 1 nesko nesko 1351 nov 25  2017 build.js
+-rw-rw-r-- 1 nesko nesko 2334 nov 25  2017 test.js
+./node_modules/destroy
+total 16
+-rw-rw-r-- 1 nesko nesko 1043 jan 13  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1099 aug 14  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  870 jan 16  2016 package.json
+-rw-rw-r-- 1 nesko nesko 2185 jan 13  2016 README.md
+./node_modules/methods
+total 20
+-rw-rw-r-- 1 nesko nesko  427 jan 18  2016 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1040 jan 18  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1180 jan 18  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko  947 jan 18  2016 package.json
+-rw-rw-r-- 1 nesko nesko 1694 jan 18  2016 README.md
+./node_modules/color-name
+total 20
+-rw-rw-r-- 1 nesko nesko 4617 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1085 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  607 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  384 okt 26  1985 README.md
+./node_modules/array-flatten
+total 16
+-rw-rw-r-- 1 nesko nesko 1195 jul  9  2015 array-flatten.js
+-rw-rw-r-- 1 nesko nesko 1103 mar 15  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  879 jul  9  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1245 maj  9  2015 README.md
+./node_modules/ignore-by-default
+total 16
+-rw-rw-r-- 1 nesko nesko 614 feb  5  2016 index.js
+-rw-rw-r-- 1 nesko nesko 748 feb  5  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko 775 feb 26  2016 package.json
+-rw-rw-r-- 1 nesko nesko 680 feb 26  2016 README.md
+./node_modules/@types
+total 12
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 bluebird
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 mysql
+drwxrwxr-x 5 nesko nesko 4096 mar 24 03:13 node
+./node_modules/@types/mysql
+total 36
+-rw-rw-r-- 1 nesko nesko 22298 dec 29 10:54 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1141 dec 29 10:54 LICENSE
+-rw-rw-r-- 1 nesko nesko  1317 dec 29 10:54 package.json
+-rw-rw-r-- 1 nesko nesko   724 dec 29 10:54 README.md
+./node_modules/@types/node
+total 800
+-rw-rw-r-- 1 nesko nesko   5689 feb 12 10:42 assert.d.ts
+-rw-rw-r-- 1 nesko nesko   9836 feb 12 10:42 async_hooks.d.ts
+-rw-rw-r-- 1 nesko nesko    905 feb 12 10:42 base.d.ts
+-rw-rw-r-- 1 nesko nesko    770 feb 12 10:42 buffer.d.ts
+-rw-rw-r-- 1 nesko nesko  25180 feb 12 10:42 child_process.d.ts
+-rw-rw-r-- 1 nesko nesko  16197 feb 12 10:42 cluster.d.ts
+-rw-rw-r-- 1 nesko nesko   5985 feb 12 10:42 console.d.ts
+-rw-rw-r-- 1 nesko nesko    698 feb 12 10:42 constants.d.ts
+-rw-rw-r-- 1 nesko nesko  46401 feb 12 10:42 crypto.d.ts
+-rw-rw-r-- 1 nesko nesko   7270 feb 12 10:42 dgram.d.ts
+-rw-rw-r-- 1 nesko nesko  16536 feb 12 10:42 dns.d.ts
+-rw-rw-r-- 1 nesko nesko    784 feb 12 10:42 domain.d.ts
+-rw-rw-r-- 1 nesko nesko   3478 feb 12 10:42 events.d.ts
+drwxrwxr-x 2 nesko nesko   4096 mar 24 03:13 fs
+-rw-rw-r-- 1 nesko nesko 118011 feb 12 10:42 fs.d.ts
+-rw-rw-r-- 1 nesko nesko  23701 feb 12 10:42 globals.d.ts
+-rw-rw-r-- 1 nesko nesko     55 feb 12 10:42 globals.global.d.ts
+-rw-rw-r-- 1 nesko nesko  56732 feb 12 10:42 http2.d.ts
+-rw-rw-r-- 1 nesko nesko  18944 feb 12 10:42 http.d.ts
+-rw-rw-r-- 1 nesko nesko   1721 feb 12 10:42 https.d.ts
+-rw-rw-r-- 1 nesko nesko   3825 feb 12 10:42 index.d.ts
+-rw-rw-r-- 1 nesko nesko 122095 feb 12 10:42 inspector.d.ts
+-rw-rw-r-- 1 nesko nesko   1141 feb 12 10:42 LICENSE
+-rw-rw-r-- 1 nesko nesko   1742 feb 12 10:42 module.d.ts
+-rw-rw-r-- 1 nesko nesko  13259 feb 12 10:42 net.d.ts
+-rw-rw-r-- 1 nesko nesko   8232 feb 12 10:42 os.d.ts
+-rw-rw-r-- 1 nesko nesko   7534 feb 12 10:42 package.json
+-rw-rw-r-- 1 nesko nesko   6395 feb 12 10:42 path.d.ts
+-rw-rw-r-- 1 nesko nesko  10691 feb 12 10:42 perf_hooks.d.ts
+-rw-rw-r-- 1 nesko nesko  20394 feb 12 10:42 process.d.ts
+-rw-rw-r-- 1 nesko nesko   3847 feb 12 10:42 punycode.d.ts
+-rw-rw-r-- 1 nesko nesko   1118 feb 12 10:42 querystring.d.ts
+-rw-rw-r-- 1 nesko nesko   7364 feb 12 10:42 readline.d.ts
+-rw-rw-r-- 1 nesko nesko   2767 feb 12 10:42 README.md
+-rw-rw-r-- 1 nesko nesko  18191 feb 12 10:42 repl.d.ts
+-rw-rw-r-- 1 nesko nesko  19473 feb 12 10:42 stream.d.ts
+-rw-rw-r-- 1 nesko nesko    271 feb 12 10:42 string_decoder.d.ts
+-rw-rw-r-- 1 nesko nesko    888 feb 12 10:42 timers.d.ts
+-rw-rw-r-- 1 nesko nesko  37905 feb 12 10:42 tls.d.ts
+-rw-rw-r-- 1 nesko nesko   2187 feb 12 10:42 trace_events.d.ts
+drwxrwxr-x 2 nesko nesko   4096 mar 24 03:13 ts3.4
+drwxrwxr-x 2 nesko nesko   4096 mar 24 03:13 ts3.6
+-rw-rw-r-- 1 nesko nesko   2503 feb 12 10:42 tty.d.ts
+-rw-rw-r-- 1 nesko nesko   4270 feb 12 10:42 url.d.ts
+-rw-rw-r-- 1 nesko nesko  12811 feb 12 10:42 util.d.ts
+-rw-rw-r-- 1 nesko nesko   6828 feb 12 10:42 v8.d.ts
+-rw-rw-r-- 1 nesko nesko   5954 feb 12 10:42 vm.d.ts
+-rw-rw-r-- 1 nesko nesko   3437 feb 12 10:42 wasi.d.ts
+-rw-rw-r-- 1 nesko nesko  11551 feb 12 10:42 worker_threads.d.ts
+-rw-rw-r-- 1 nesko nesko  14390 feb 12 10:42 zlib.d.ts
+./node_modules/@types/node/ts3.4
+total 20
+-rw-rw-r-- 1 nesko nesko 4684 feb 12 10:42 assert.d.ts
+-rw-rw-r-- 1 nesko nesko 2420 feb 12 10:42 base.d.ts
+-rw-rw-r-- 1 nesko nesko   35 feb 12 10:42 globals.global.d.ts
+-rw-rw-r-- 1 nesko nesko  429 feb 12 10:42 index.d.ts
+./node_modules/@types/node/fs
+total 32
+-rw-rw-r-- 1 nesko nesko 30195 feb 12 10:42 promises.d.ts
+./node_modules/@types/node/ts3.6
+total 8
+-rw-rw-r-- 1 nesko nesko 1000 feb 12 10:42 base.d.ts
+-rw-rw-r-- 1 nesko nesko  303 feb 12 10:42 index.d.ts
+./node_modules/@types/bluebird
+total 68
+-rw-rw-r-- 1 nesko nesko 54433 okt 28 19:21 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1141 okt 28 19:21 LICENSE
+-rw-rw-r-- 1 nesko nesko   694 okt 28 19:21 package.json
+-rw-rw-r-- 1 nesko nesko   499 okt 28 19:21 README.md
+./node_modules/forwarded
+total 20
+-rw-rw-r-- 1 nesko nesko  306 sep 15  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 1360 sep 15  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1094 sep 15  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1153 sep 15  2017 package.json
+-rw-rw-r-- 1 nesko nesko 1637 sep 15  2017 README.md
+./node_modules/braces
+total 52
+-rw-rw-r-- 1 nesko nesko  5147 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko  4375 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko  1088 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1647 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 21130 okt 26  1985 README.md
+./node_modules/braces/lib
+total 28
+-rw-rw-r-- 1 nesko nesko 1415 okt 26  1985 compile.js
+-rw-rw-r-- 1 nesko nesko 1593 okt 26  1985 constants.js
+-rw-rw-r-- 1 nesko nesko 2780 okt 26  1985 expand.js
+-rw-rw-r-- 1 nesko nesko 6913 okt 26  1985 parse.js
+-rw-rw-r-- 1 nesko nesko  700 okt 26  1985 stringify.js
+-rw-rw-r-- 1 nesko nesko 2451 okt 26  1985 utils.js
+./node_modules/make-dir
+total 24
+-rw-rw-r-- 1 nesko nesko 1534 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 3124 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 node_modules
+-rw-rw-r-- 1 nesko nesko 1051 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3224 okt 26  1985 readme.md
+./node_modules/make-dir/node_modules
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 .bin
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 semver
+./node_modules/make-dir/node_modules/.bin
+total 0
+lrwxrwxrwx 1 nesko nesko 23 mar 24 03:13 semver -> ../semver/bin/semver.js
+./node_modules/make-dir/node_modules/semver
+total 84
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko  1307 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   765 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   559 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   619 okt 26  1985 range.bnf
+-rw-rw-r-- 1 nesko nesko 16974 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 42130 okt 26  1985 semver.js
+./node_modules/make-dir/node_modules/semver/bin
+total 8
+-rwxrwxr-x 1 nesko nesko 4717 okt 26  1985 semver.js
+./node_modules/picomatch
+total 52
+-rwxrwxr-x 1 nesko nesko  5264 okt 26  1985 CHANGELOG.md
+-rwxrwxr-x 1 nesko nesko    60 okt 26  1985 index.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rwxrwxr-x 1 nesko nesko  1091 okt 26  1985 LICENSE
+-rwxrwxr-x 1 nesko nesko  1912 okt 26  1985 package.json
+-rwxrwxr-x 1 nesko nesko 26608 okt 26  1985 README.md
+./node_modules/picomatch/lib
+total 64
+-rwxrwxr-x 1 nesko nesko  4448 okt 26  1985 constants.js
+-rwxrwxr-x 1 nesko nesko 27098 okt 26  1985 parse.js
+-rwxrwxr-x 1 nesko nesko  9377 okt 26  1985 picomatch.js
+-rwxrwxr-x 1 nesko nesko  8955 okt 26  1985 scan.js
+-rwxrwxr-x 1 nesko nesko  1885 okt 26  1985 utils.js
+./node_modules/type-fest
+total 44
+-rw-rw-r-- 1 nesko nesko   777 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko   926 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 27689 okt 26  1985 readme.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 source
+./node_modules/type-fest/source
+total 68
+-rw-rw-r-- 1 nesko nesko  2017 okt 26  1985 basic.d.ts
+-rw-rw-r-- 1 nesko nesko   886 okt 26  1985 except.d.ts
+-rw-rw-r-- 1 nesko nesko  1152 okt 26  1985 literal-union.d.ts
+-rw-rw-r-- 1 nesko nesko   415 okt 26  1985 merge.d.ts
+-rw-rw-r-- 1 nesko nesko  1340 okt 26  1985 merge-exclusive.d.ts
+-rw-rw-r-- 1 nesko nesko   860 okt 26  1985 mutable.d.ts
+-rw-rw-r-- 1 nesko nesko  1383 okt 26  1985 opaque.d.ts
+-rw-rw-r-- 1 nesko nesko 10232 okt 26  1985 package-json.d.ts
+-rw-rw-r-- 1 nesko nesko  2312 okt 26  1985 partial-deep.d.ts
+-rw-rw-r-- 1 nesko nesko   775 okt 26  1985 promisable.d.ts
+-rw-rw-r-- 1 nesko nesko  1828 okt 26  1985 readonly-deep.d.ts
+-rw-rw-r-- 1 nesko nesko   809 okt 26  1985 require-at-least-one.d.ts
+-rw-rw-r-- 1 nesko nesko  1322 okt 26  1985 require-exactly-one.d.ts
+-rw-rw-r-- 1 nesko nesko  1057 okt 26  1985 set-optional.d.ts
+-rw-rw-r-- 1 nesko nesko  1058 okt 26  1985 set-required.d.ts
+./node_modules/express
+total 132
+-rw-rw-r-- 1 nesko nesko 109589 okt 26  1985 History.md
+-rw-rw-r-- 1 nesko nesko    224 okt 26  1985 index.js
+drwxrwxr-x 4 nesko nesko   4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko   1249 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   2793 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   4607 okt 26  1985 Readme.md
+./node_modules/express/lib
+total 84
+-rw-rw-r-- 1 nesko nesko 14270 okt 26  1985 application.js
+-rw-rw-r-- 1 nesko nesko  2409 okt 26  1985 express.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 middleware
+-rw-rw-r-- 1 nesko nesko 12504 okt 26  1985 request.js
+-rw-rw-r-- 1 nesko nesko 27124 okt 26  1985 response.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 router
+-rw-rw-r-- 1 nesko nesko  5972 okt 26  1985 utils.js
+-rw-rw-r-- 1 nesko nesko  3326 okt 26  1985 view.js
+./node_modules/express/lib/router
+total 28
+-rw-rw-r-- 1 nesko nesko 14883 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  3296 okt 26  1985 layer.js
+-rw-rw-r-- 1 nesko nesko  4149 okt 26  1985 route.js
+./node_modules/express/lib/middleware
+total 8
+-rw-rw-r-- 1 nesko nesko 853 okt 26  1985 init.js
+-rw-rw-r-- 1 nesko nesko 885 okt 26  1985 query.js
+./node_modules/ini
+total 20
+-rw-rw-r-- 1 nesko nesko 5061 okt 26  1985 ini.js
+-rw-rw-r-- 1 nesko nesko  765 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  845 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2718 okt 26  1985 README.md
+./node_modules/end-of-stream
+total 16
+-rw-rw-r-- 1 nesko nesko 2678 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1078 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  777 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1701 okt 26  1985 README.md
+./node_modules/serve-static
+total 36
+-rw-rw-r-- 1 nesko nesko 10083 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko  4570 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  1189 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  1269 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  7783 okt 26  1985 README.md
+./node_modules/toidentifier
+total 16
+-rw-rw-r-- 1 nesko nesko  490 jul  2  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1108 jul  2  2018 LICENSE
+-rw-rw-r-- 1 nesko nesko 1011 jul  9  2018 package.json
+-rw-rw-r-- 1 nesko nesko 1718 jul  9  2018 README.md
+./node_modules/typedarray-to-buffer
+total 28
+-rw-rw-r-- 1 nesko nesko  279 mar 24 03:13 .airtap.yml
+-rw-rw-r-- 1 nesko nesko  758 mar 24 03:13 index.js
+-rw-rw-r-- 1 nesko nesko 1081 mar 24 03:13 LICENSE
+-rw-rw-r-- 1 nesko nesko 1149 mar 24 03:13 package.json
+-rw-rw-r-- 1 nesko nesko 3463 mar 24 03:13 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+-rw-rw-r-- 1 nesko nesko  480 mar 24 03:13 .travis.yml
+./node_modules/typedarray-to-buffer/test
+total 4
+-rw-rw-r-- 1 nesko nesko 1625 mar 24 03:13 basic.js
+./node_modules/bignumber.js
+total 328
+-rw-rw-r-- 1 nesko nesko 67076 okt 26  1985 bignumber.d.ts
+-rw-rw-r-- 1 nesko nesko 89253 okt 26  1985 bignumber.js
+-rw-rw-r-- 1 nesko nesko 18598 okt 26  1985 bignumber.min.js
+-rw-rw-r-- 1 nesko nesko 35516 okt 26  1985 bignumber.min.js.map
+-rw-rw-r-- 1 nesko nesko 84325 okt 26  1985 bignumber.mjs
+-rw-rw-r-- 1 nesko nesko  7851 okt 26  1985 CHANGELOG.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 doc
+-rw-rw-r-- 1 nesko nesko  1104 okt 26  1985 LICENCE
+-rw-rw-r-- 1 nesko nesko   885 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 10289 okt 26  1985 README.md
+./node_modules/bignumber.js/doc
+total 88
+-rw-rw-r-- 1 nesko nesko 86676 okt 26  1985 API.html
+./node_modules/balanced-match
+total 20
+-rw-rw-r-- 1 nesko nesko 1174 jun 12  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1096 jun 12  2017 LICENSE.md
+-rw-rw-r-- 1 nesko nesko   48 jun 12  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko 1073 jun 12  2017 package.json
+-rw-rw-r-- 1 nesko nesko 3308 jun 12  2017 README.md
+./node_modules/update-notifier
+total 28
+-rw-rw-r-- 1 nesko nesko  780 okt 26  1985 check.js
+-rw-rw-r-- 1 nesko nesko 5324 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1254 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko 1235 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 6795 okt 26  1985 readme.md
+./node_modules/util-deprecate
+total 24
+-rw-rw-r-- 1 nesko nesko 1614 okt  7  2015 browser.js
+-rw-rw-r-- 1 nesko nesko  282 okt  7  2015 History.md
+-rw-rw-r-- 1 nesko nesko 1102 nov 25  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  123 nov 25  2014 node.js
+-rw-rw-r-- 1 nesko nesko  694 okt  7  2015 package.json
+-rw-rw-r-- 1 nesko nesko 1666 nov 25  2014 README.md
+./node_modules/has-flag
+total 16
+-rw-rw-r-- 1 nesko nesko  320 jan  2  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  710 jan  2  2018 package.json
+-rw-rw-r-- 1 nesko nesko  986 jan  2  2018 readme.md
+./node_modules/strip-ansi
+total 20
+-rw-rw-r-- 1 nesko nesko  349 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  220 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  809 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1684 okt 26  1985 readme.md
+./node_modules/.bin
+total 0
+lrwxrwxrwx 1 nesko nesko 15 mar 24 03:13 is-ci -> ../is-ci/bin.js
+lrwxrwxrwx 1 nesko nesko 14 mar 24 03:13 mime -> ../mime/cli.js
+lrwxrwxrwx 1 nesko nesko 25 mar 24 03:13 nodemon -> ../nodemon/bin/nodemon.js
+lrwxrwxrwx 1 nesko nesko 25 mar 24 03:13 nodetouch -> ../touch/bin/nodetouch.js
+lrwxrwxrwx 1 nesko nesko 19 mar 24 03:13 nopt -> ../nopt/bin/nopt.js
+lrwxrwxrwx 1 nesko nesko 12 mar 24 03:13 rc -> ../rc/cli.js
+lrwxrwxrwx 1 nesko nesko 20 mar 24 03:13 semver -> ../semver/bin/semver
+./node_modules/to-readable-stream
+total 16
+-rw-rw-r-- 1 nesko nesko  160 maj  1  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  659 maj  1  2018 package.json
+-rw-rw-r-- 1 nesko nesko  861 maj  1  2018 readme.md
+./node_modules/ansi-regex
+total 16
+-rw-rw-r-- 1 nesko nesko  367 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  800 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 2863 okt 26  1985 readme.md
+./node_modules/semver
+total 76
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 bin
+-rw-rw-r-- 1 nesko nesko   672 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   765 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   578 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   619 okt 26  1985 range.bnf
+-rw-rw-r-- 1 nesko nesko 15723 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 38803 okt 26  1985 semver.js
+./node_modules/semver/bin
+total 8
+-rwxrwxr-x 1 nesko nesko 4418 okt 26  1985 semver
+./node_modules/bluebird
+total 20
+-rw-rw-r-- 1 nesko nesko   87 okt 26  1985 changelog.md
+drwxrwxr-x 4 nesko nesko 4096 mar 24 03:13 js
+-rw-rw-r-- 1 nesko nesko 1086 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 2216 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 3058 okt 26  1985 README.md
+./node_modules/bluebird/js
+total 8
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 browser
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 release
+./node_modules/bluebird/js/release
+total 248
+-rw-rw-r-- 1 nesko nesko   421 okt 26  1985 any.js
+-rw-rw-r-- 1 nesko nesko  1653 okt 26  1985 assert.js
+-rw-rw-r-- 1 nesko nesko  2876 okt 26  1985 async.js
+-rw-rw-r-- 1 nesko nesko  1970 okt 26  1985 bind.js
+-rw-rw-r-- 1 nesko nesko   291 okt 26  1985 bluebird.js
+-rw-rw-r-- 1 nesko nesko  4355 okt 26  1985 call_get.js
+-rw-rw-r-- 1 nesko nesko  3707 okt 26  1985 cancel.js
+-rw-rw-r-- 1 nesko nesko  1426 okt 26  1985 catch_filter.js
+-rw-rw-r-- 1 nesko nesko  2382 okt 26  1985 context.js
+-rw-rw-r-- 1 nesko nesko 32170 okt 26  1985 debuggability.js
+-rw-rw-r-- 1 nesko nesko  1395 okt 26  1985 direct_resolve.js
+-rw-rw-r-- 1 nesko nesko   789 okt 26  1985 each.js
+-rw-rw-r-- 1 nesko nesko  3717 okt 26  1985 errors.js
+-rw-rw-r-- 1 nesko nesko  1978 okt 26  1985 es5.js
+-rw-rw-r-- 1 nesko nesko   314 okt 26  1985 filter.js
+-rw-rw-r-- 1 nesko nesko  4613 okt 26  1985 finally.js
+-rw-rw-r-- 1 nesko nesko  7761 okt 26  1985 generators.js
+-rw-rw-r-- 1 nesko nesko  8136 okt 26  1985 join.js
+-rw-rw-r-- 1 nesko nesko  5602 okt 26  1985 map.js
+-rw-rw-r-- 1 nesko nesko  1768 okt 26  1985 method.js
+-rw-rw-r-- 1 nesko nesko  1560 okt 26  1985 nodeback.js
+-rw-rw-r-- 1 nesko nesko  1647 okt 26  1985 nodeify.js
+-rw-rw-r-- 1 nesko nesko  5252 okt 26  1985 promise_array.js
+-rw-rw-r-- 1 nesko nesko 26986 okt 26  1985 promise.js
+-rw-rw-r-- 1 nesko nesko 12182 okt 26  1985 promisify.js
+-rw-rw-r-- 1 nesko nesko  3117 okt 26  1985 props.js
+-rw-rw-r-- 1 nesko nesko  1873 okt 26  1985 queue.js
+-rw-rw-r-- 1 nesko nesko  1250 okt 26  1985 race.js
+-rw-rw-r-- 1 nesko nesko  5372 okt 26  1985 reduce.js
+-rw-rw-r-- 1 nesko nesko  2148 okt 26  1985 schedule.js
+-rw-rw-r-- 1 nesko nesko  1366 okt 26  1985 settle.js
+-rw-rw-r-- 1 nesko nesko  3959 okt 26  1985 some.js
+-rw-rw-r-- 1 nesko nesko  2813 okt 26  1985 synchronous_inspection.js
+-rw-rw-r-- 1 nesko nesko  2131 okt 26  1985 thenables.js
+-rw-rw-r-- 1 nesko nesko  2395 okt 26  1985 timers.js
+-rw-rw-r-- 1 nesko nesko  7525 okt 26  1985 using.js
+-rw-rw-r-- 1 nesko nesko 11379 okt 26  1985 util.js
+./node_modules/bluebird/js/browser
+total 444
+-rw-rw-r-- 1 nesko nesko 123379 okt 26  1985 bluebird.core.js
+-rw-rw-r-- 1 nesko nesko  57355 okt 26  1985 bluebird.core.min.js
+-rw-rw-r-- 1 nesko nesko 183390 okt 26  1985 bluebird.js
+-rw-rw-r-- 1 nesko nesko  81530 okt 26  1985 bluebird.min.js
+./node_modules/brace-expansion
+total 20
+-rw-rw-r-- 1 nesko nesko 4792 feb  9  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1096 feb  9  2018 LICENSE
+-rw-rw-r-- 1 nesko nesko 1113 feb 10  2018 package.json
+-rw-rw-r-- 1 nesko nesko 4058 feb 10  2018 README.md
+./node_modules/media-typer
+total 24
+-rw-rw-r-- 1 nesko nesko  461 sep  8  2014 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 6375 sep  8  2014 index.js
+-rw-rw-r-- 1 nesko nesko 1089 sep  8  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko  759 sep  8  2014 package.json
+-rw-rw-r-- 1 nesko nesko 2371 sep  8  2014 README.md
+./node_modules/wcwidth
+total 32
+-rw-rw-r-- 1 nesko nesko 3078 maj 12  2014 combining.js
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 docs
+-rw-rw-r-- 1 nesko nesko 3141 jul 27  2014 index.js
+-rw-rw-r-- 1 nesko nesko 1581 maj 12  2014 LICENSE
+-rw-rw-r-- 1 nesko nesko   13 maj 12  2014 .npmignore
+-rw-rw-r-- 1 nesko nesko  852 maj 30  2016 package.json
+-rw-rw-r-- 1 nesko nesko  887 jul 29  2014 Readme.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+./node_modules/wcwidth/test
+total 4
+-rw-rw-r-- 1 nesko nesko 1471 jul 29  2014 index.js
+./node_modules/wcwidth/docs
+total 4
+-rw-rw-r-- 1 nesko nesko 3218 maj 12  2014 index.md
+./node_modules/is-glob
+total 20
+-rw-rw-r-- 1 nesko nesko 1153 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1088 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1727 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 7317 okt 26  1985 README.md
+./node_modules/minimatch
+total 44
+-rw-rw-r-- 1 nesko nesko   765 maj 19  2015 LICENSE
+-rw-rw-r-- 1 nesko nesko 25347 aug  9  2016 minimatch.js
+-rw-rw-r-- 1 nesko nesko   667 maj  7  2017 package.json
+-rw-rw-r-- 1 nesko nesko  6336 feb 20  2016 README.md
+./node_modules/defer-to-connect
+total 16
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 dist
+-rw-rw-r-- 1 nesko nesko 1071 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1613 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  951 okt 26  1985 README.md
+./node_modules/defer-to-connect/dist
+total 8
+-rw-rw-r-- 1 nesko nesko  346 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 1470 okt 26  1985 index.js
+./node_modules/@sindresorhus
+total 4
+drwxrwxr-x 3 nesko nesko 4096 mar 24 03:13 is
+./node_modules/@sindresorhus/is
+total 24
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 dist
+-rw-rw-r-- 1 nesko nesko  1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  1256 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 10313 okt 26  1985 readme.md
+./node_modules/@sindresorhus/is/dist
+total 32
+-rw-rw-r-- 1 nesko nesko  6063 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 10891 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 10526 okt 26  1985 index.js.map
+./node_modules/string_decoder
+total 20
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 2338 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko  795 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1801 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko  899 okt 26  1985 .travis.yml
+./node_modules/string_decoder/lib
+total 12
+-rw-rw-r-- 1 nesko nesko 9465 okt 26  1985 string_decoder.js
+./node_modules/inherits
+total 20
+-rw-rw-r-- 1 nesko nesko  672 maj 16  2013 inherits_browser.js
+-rw-rw-r-- 1 nesko nesko  192 sep  7  2016 inherits.js
+-rw-rw-r-- 1 nesko nesko  749 aug 20  2013 LICENSE
+-rw-rw-r-- 1 nesko nesko  586 sep  8  2016 package.json
+-rw-rw-r-- 1 nesko nesko 1625 maj 16  2013 README.md
+./node_modules/unique-string
+total 20
+-rw-rw-r-- 1 nesko nesko  388 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  122 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  647 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  614 okt 26  1985 readme.md
+./node_modules/ejs
+total 112
+-rw-rw-r-- 1 nesko nesko 48484 nov 19  2019 ejs.js
+-rw-rw-r-- 1 nesko nesko 23620 nov 19  2019 ejs.min.js
+-rw-rw-r-- 1 nesko nesko  2033 nov 19  2019 jakefile.js
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 11358 nov 19  2019 LICENSE
+-rw-rw-r-- 1 nesko nesko   844 nov 19  2019 package.json
+-rwxrwxr-x 1 nesko nesko   544 nov 19  2019 postinstall.js
+-rw-rw-r-- 1 nesko nesko  9683 nov 19  2019 README.md
+./node_modules/ejs/lib
+total 32
+-rwxrwxr-x 1 nesko nesko 28384 nov 19  2019 ejs.js
+-rw-rw-r-- 1 nesko nesko  3863 nov 19  2019 utils.js
+./node_modules/is-fullwidth-code-point
+total 16
+-rw-rw-r-- 1 nesko nesko 1393 sep 22  2016 index.js
+-rw-rw-r-- 1 nesko nesko 1119 apr  6  2014 license
+-rw-rw-r-- 1 nesko nesko  788 sep 22  2016 package.json
+-rw-rw-r-- 1 nesko nesko  836 sep 22  2016 readme.md
+./node_modules/debug
+total 76
+-rw-rw-r-- 1 nesko nesko 11707 sep 22  2017 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko   321 sep 22  2017 component.json
+-rw-rw-r-- 1 nesko nesko    46 jun 15  2017 .coveralls.yml
+-rw-rw-r-- 1 nesko nesko   180 sep 22  2017 .eslintrc
+-rw-rw-r-- 1 nesko nesko  1736 jun 15  2017 karma.conf.js
+-rw-rw-r-- 1 nesko nesko  1107 jun 15  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko  1059 sep 22  2017 Makefile
+-rw-rw-r-- 1 nesko nesko    40 jun 15  2017 node.js
+-rw-rw-r-- 1 nesko nesko    72 jun 15  2017 .npmignore
+-rw-rw-r-- 1 nesko nesko  1138 sep 22  2017 package.json
+-rw-rw-r-- 1 nesko nesko 17918 sep 22  2017 README.md
+drwxrwxr-x 2 nesko nesko  4096 mar 24 03:13 src
+-rw-rw-r-- 1 nesko nesko   140 sep 22  2017 .travis.yml
+./node_modules/debug/src
+total 32
+-rw-rw-r-- 1 nesko nesko 4734 sep 22  2017 browser.js
+-rw-rw-r-- 1 nesko nesko 4394 sep 22  2017 debug.js
+-rw-rw-r-- 1 nesko nesko  263 sep 22  2017 index.js
+-rw-rw-r-- 1 nesko nesko  373 sep 21  2017 inspector-log.js
+-rw-rw-r-- 1 nesko nesko 6015 sep 22  2017 node.js
+./node_modules/decompress-response
+total 16
+-rw-rw-r-- 1 nesko nesko  628 jun  2  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1120 okt 25  2016 license
+-rw-rw-r-- 1 nesko nesko  951 jun  2  2017 package.json
+-rw-rw-r-- 1 nesko nesko  841 maj  6  2017 readme.md
+./node_modules/readdirp
+total 32
+-rw-rw-r-- 1 nesko nesko 1018 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko 8522 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1114 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 2522 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 6942 okt 26  1985 README.md
+./node_modules/latest-version
+total 20
+-rw-rw-r-- 1 nesko nesko  981 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  334 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1109 okt 26  1985 license
+-rw-rw-r-- 1 nesko nesko  710 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1158 okt 26  1985 readme.md
+./node_modules/mime-db
+total 204
+-rw-rw-r-- 1 nesko nesko 180015 okt 26  1985 db.json
+-rw-rw-r-- 1 nesko nesko  11352 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko    136 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko   1099 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko   1613 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko   4077 okt 26  1985 README.md
+./node_modules/glob-parent
+total 20
+-rw-rw-r-- 1 nesko nesko 1106 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  753 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1105 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 4646 okt 26  1985 README.md
+./node_modules/wrappy
+total 16
+-rw-rw-r-- 1 nesko nesko 765 maj 18  2016 LICENSE
+-rw-rw-r-- 1 nesko nesko 606 maj 18  2016 package.json
+-rw-rw-r-- 1 nesko nesko 685 maj 18  2016 README.md
+-rw-rw-r-- 1 nesko nesko 905 maj 18  2016 wrappy.js
+./node_modules/supports-color
+total 20
+-rw-rw-r-- 1 nesko nesko   67 mar 24  2018 browser.js
+-rw-rw-r-- 1 nesko nesko 2771 aug 20  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1109 jun  1  2017 license
+-rw-rw-r-- 1 nesko nesko  818 aug 20  2018 package.json
+-rw-rw-r-- 1 nesko nesko 1865 mar 24  2018 readme.md
+./node_modules/cookie
+total 28
+-rw-rw-r-- 1 nesko nesko 2698 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 4037 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1175 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1139 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 8809 okt 26  1985 README.md
+./node_modules/nopt
+total 28
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 bin
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 examples
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 lib
+-rw-rw-r-- 1 nesko nesko 1092 okt  5  2011 LICENSE
+-rw-rw-r-- 1 nesko nesko    0 okt  5  2011 .npmignore
+-rw-rw-r-- 1 nesko nesko  485 okt  5  2011 package.json
+-rw-rw-r-- 1 nesko nesko 7476 okt  5  2011 README.md
+./node_modules/nopt/bin
+total 4
+-rwxrwxr-x 1 nesko nesko 1277 okt  5  2011 nopt.js
+./node_modules/nopt/examples
+total 4
+-rwxrwxr-x 1 nesko nesko 1032 okt  5  2011 my-program.js
+./node_modules/nopt/lib
+total 16
+-rw-rw-r-- 1 nesko nesko 15345 okt  5  2011 nopt.js
+./node_modules/signal-exit
+total 28
+-rw-rw-r-- 1 nesko nesko 1456 okt 26  1985 CHANGELOG.md
+-rw-rw-r-- 1 nesko nesko 4124 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  748 okt 26  1985 LICENSE.txt
+-rw-rw-r-- 1 nesko nesko  909 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 1342 okt 26  1985 README.md
+-rw-rw-r-- 1 nesko nesko 1295 okt 26  1985 signals.js
+./node_modules/etag
+total 24
+-rw-rw-r-- 1 nesko nesko 1732 sep 13  2017 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 2479 sep 13  2017 index.js
+-rw-rw-r-- 1 nesko nesko 1094 feb 19  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko 1306 sep 13  2017 package.json
+-rw-rw-r-- 1 nesko nesko 4198 sep 13  2017 README.md
+./node_modules/setprototypeof
+total 24
+-rw-rw-r-- 1 nesko nesko   93 okt 26  1985 index.d.ts
+-rw-rw-r-- 1 nesko nesko  384 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko  727 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1169 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko  850 okt 26  1985 README.md
+drwxrwxr-x 2 nesko nesko 4096 mar 24 03:13 test
+./node_modules/setprototypeof/test
+total 4
+-rw-rw-r-- 1 nesko nesko 690 okt 26  1985 index.js
+./node_modules/http-errors
+total 28
+-rw-rw-r-- 1 nesko nesko 3145 okt 26  1985 HISTORY.md
+-rw-rw-r-- 1 nesko nesko 5878 okt 26  1985 index.js
+-rw-rw-r-- 1 nesko nesko 1168 okt 26  1985 LICENSE
+-rw-rw-r-- 1 nesko nesko 1341 okt 26  1985 package.json
+-rw-rw-r-- 1 nesko nesko 5554 okt 26  1985 README.md
+./node_modules/pump
+total 28
+-rw-rw-r-- 1 nesko nesko 2224 jan 31  2018 index.js
+-rw-rw-r-- 1 nesko nesko 1078 nov 16  2017 LICENSE
+-rw-rw-r-- 1 nesko nesko  530 jan 31  2018 package.json
+-rw-rw-r-- 1 nesko nesko 1721 jan 31  2018 README.md
+-rw-rw-r-- 1 nesko nesko 1172 jan 31  2018 test-browser.js
+-rw-rw-r-- 1 nesko nesko  992 jan 31  2018 test-node.js
+-rw-rw-r-- 1 nesko nesko   58 nov 16  2017 .travis.yml
+./src
+total 8
+-rw-r--r-- 1 nesko nesko  995 mar 24 14:19 exam.js
+-rw-r--r-- 1 nesko nesko 1274 mar 24 15:03 functions.js
+./middleware
+total 4
+-rw-r--r-- 1 nesko nesko 522 feb 14 23:46 index.js
+./public
+total 8
+drwxr-xr-x 3 nesko nesko 4096 mar 24 02:14 img
+drwxr-xr-x 2 nesko nesko 4096 mar 24 02:14 style
+./public/img
+total 920
+-rw-r--r-- 1 nesko nesko 906434 feb 15 00:40 AI-head2.jpg
+drwxr-xr-x 2 nesko nesko   4096 mar  1 20:34 eshop
+-rw-r--r-- 1 nesko nesko  28561 feb 15 00:40 iconfinder_032_95930.png
+./public/img/eshop
+total 0
+./public/style
+total 12
+-rw-r--r-- 1 nesko nesko 1804 mar  6 14:33 invoice.css
+-rw-r--r-- 1 nesko nesko 5353 mar  9 00:36 style.css
+./config
+total 4
+drwxr-xr-x 2 nesko nesko 4096 mar 24 02:14 db
+./config/db
+total 4
+-rw-r--r-- 1 nesko nesko 136 mar 24 01:50 exam.json
+./views
+total 12
+drwxrwxr-x 5 nesko nesko 4096 mar 24 03:04 exam
+-rw-r--r-- 1 nesko nesko  213 mar 24 02:59 index.ejs
+drwxrwxr-x 2 nesko nesko 4096 mar  2 11:42 partials
+./views/exam
+total 56
+-rw-r--r-- 1 nesko nesko  403 mar  8 18:14 about.ejs
+-rw-r--r-- 1 nesko nesko  552 mar  5 19:41 cat2prod.ejs
+drwxrwxr-x 2 nesko nesko 4096 mar  4 14:41 category
+-rw-r--r-- 1 nesko nesko 1273 mar  8 23:15 category.ejs
+-rw-r--r-- 1 nesko nesko  308 mar 24 03:01 index.ejs
+-rw-r--r-- 1 nesko nesko 3342 mar  7 19:42 invoice.ejs
+drwxrwxr-x 2 nesko nesko 4096 mar  6 12:56 order
+-rw-r--r-- 1 nesko nesko 2889 mar  8 18:57 order.ejs
+-rw-r--r-- 1 nesko nesko 1069 mar  8 18:34 picklist.ejs
+drwxrwxr-x 2 nesko nesko 4096 mar  8 22:52 product
+-rw-r--r-- 1 nesko nesko 1712 mar  6 11:59 product.ejs
+-rw-r--r-- 1 nesko nesko 1118 mar 24 14:30 search.ejs
+-rw-r--r-- 1 nesko nesko  271 mar  5 18:35 session.ejs
+-rw-r--r-- 1 nesko nesko  796 mar 24 14:26 visa.ejs
+./views/exam/product
+total 8
+-rw-r--r-- 1 nesko nesko  903 mar  7 16:03 create_product.ejs
+-rw-r--r-- 1 nesko nesko 1499 mar  5 01:48 update_product.ejs
+./views/exam/category
+total 8
+-rw-r--r-- 1 nesko nesko  910 mar  4 14:49 create_category.ejs
+-rw-r--r-- 1 nesko nesko 1144 mar  4 14:49 update_category.ejs
+./views/exam/order
+total 12
+-rw-r--r-- 1 nesko nesko 1345 mar  6 14:35 create_order.ejs
+-rw-r--r-- 1 nesko nesko 3080 mar  8 01:09 show_order.ejs
+-rw-r--r-- 1 nesko nesko 1681 mar  6 19:27 update_order.ejs
+./views/partials
+total 8
+-rw-r--r-- 1 nesko nesko 109 mar 24 03:00 footer.ejs
+-rw-r--r-- 1 nesko nesko 977 mar 24 14:32 header.ejs
+./.dbwebb
+total 4
+drwxr-xr-x 4 nesko nesko 4096 mar 24 11:55 exam
+./.dbwebb/exam
+total 12
+drwxr-xr-x 2 nesko nesko 4096 mar 24 16:19 file
+-rw-r--r-- 1 nesko nesko   36 mar 24 11:55 id.md
+drwxr-xr-x 2 nesko nesko 4096 mar 24 16:19 receipt
+./.dbwebb/exam/receipt
+total 20
+-rw-r--r-- 1 nesko nesko 576 mar 24 11:55 20210324105509.md
+-rw-r--r-- 1 nesko nesko 654 mar 24 14:40 20210324134009.md
+-rw-r--r-- 1 nesko nesko 732 mar 24 15:04 20210324140412.md
+-rw-r--r-- 1 nesko nesko 810 mar 24 16:13 20210324151325.md
+-rw-r--r-- 1 nesko nesko 888 mar 24 16:19 20210324151912.md
+./.dbwebb/exam/file
+total 500
+-rw-rw-r-- 1 nesko nesko 100016 mar 24 11:55 20210324115509.txt
+-rw-rw-r-- 1 nesko nesko 100573 mar 24 14:40 20210324144009.txt
+-rw-rw-r-- 1 nesko nesko 100698 mar 24 15:04 20210324150412.txt
+-rw-rw-r-- 1 nesko nesko 100822 mar 24 16:13 20210324161325.txt
+-rw-rw-r-- 1 nesko nesko 100041 mar 24 16:19 20210324161912.txt
+./sql
+total 4
+drwxr-xr-x 2 nesko nesko 4096 mar 24 16:18 exam
+./sql/exam
+total 44
+-rw-rw-r-- 1 nesko nesko 9208 mar 24 16:12 backup.sql
+-rw-rw-r-- 1 nesko nesko 3790 mar 24 16:18 ddl.sql
+-rw-rw-r-- 1 nesko nesko  552 mar 24 12:06 hund.csv
+-rw-rw-r-- 1 nesko nesko 1418 mar 24 12:42 insert.sql
+-rw-rw-r-- 1 nesko nesko  173 mar 24 12:07 medlem2hund.csv
+-rw-rw-r-- 1 nesko nesko  300 mar 24 12:53 medlem.csv
+-rw-rw-r-- 1 nesko nesko  131 mar 24 12:07 ras.csv
+-rw-r--r-- 1 nesko nesko  664 mar 24 01:55 setup.sql
+-rw-rw-r-- 1 nesko nesko 2280 mar 24 16:16 stored_procedures.sql

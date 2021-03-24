@@ -1,0 +1,27 @@
+20210324014509
+.
+total 176
+drwxr-xr-x  3 nesko  staff    102 Mar 24 01:45 .dbwebb
+-rw-r--r--  1 nesko  staff   6375 Mar 24 01:45 INSTRUKTION_2018-03-21_upplevelse.md
+-rw-r--r--  1 nesko  staff   7468 Mar 24 01:45 INSTRUKTION_2018-05-31_det-stora-slaget-om-tartan.md
+-rw-r--r--  1 nesko  staff   7764 Mar 24 01:45 INSTRUKTION_2018-08-31_en-japansk-smakresa.md
+-rw-r--r--  1 nesko  staff   9668 Mar 24 01:45 INSTRUKTION_2019-03-28_Sakerhetspolisen-SAPO.md
+-rw-r--r--  1 nesko  staff  10089 Mar 24 01:45 INSTRUKTION_2019-05-30_Biblioteket.md
+-rw-r--r--  1 nesko  staff   9428 Mar 24 01:45 INSTRUKTION_2019-08-30_pingis.md
+-rw-r--r--  1 nesko  staff  10501 Mar 24 01:45 INSTRUKTION_2020-03-26_rock.md
+-rw-r--r--  1 nesko  staff  10713 Mar 24 01:45 INSTRUKTION_2020-05-29_vapen.md
+-rw-r--r--  1 nesko  staff   3926 Mar 24 01:45 README_FIRST.md
+./.dbwebb
+total 0
+drwxr-xr-x  5 nesko  staff  170 Mar 24 01:45 exam
+./.dbwebb/exam
+total 8
+drwxr-xr-x  3 nesko  staff  102 Mar 24 01:45 file
+-rw-r--r--  1 nesko  staff   36 Mar 24 01:45 id.md
+drwxr-xr-x  3 nesko  staff  102 Mar 24 01:45 receipt
+./.dbwebb/exam/file
+total 8
+-rw-r--r--  1 nesko  staff  1104 Mar 24 01:45 20210324014509.txt
+./.dbwebb/exam/receipt
+total 8
+-rw-r--r--  1 nesko  staff  582 Mar 24 01:45 20210324004509.md

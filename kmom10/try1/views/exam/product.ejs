@@ -1,0 +1,55 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Produkter</h1>
+
+<p>
+    <form method="get" action="create_product">
+        <button type="submit">Skapa en ny produkt</button>
+    </form>
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Namn</th>
+            <th>Kategori(er)</th>
+            <th>Pris</th>
+            <th>Lagerstatus</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td class="right"><%= row.id %></td>
+            <td><%= row.namn %></td>
+            <td><%= row.kategorier %></td>
+            <td class="right"><%= row.pris %> kr</td>
+            <td class="right"><%= row.antal %> st</td>
+            <td class="center">
+                <% if (row.aktiv == 1) { %>
+                    aktiv
+                <% } else { %>
+                    raderad
+                <% } %>
+            </td>
+            <td class="actions"><a href="update_product/<%= row.id %>" title="Redigera">&#x270e;</a>
+                <% if (row.aktiv == 1) { %>
+                    <a href="deactivate_product/<%= row.id %>" title="Mjukt radera">&#128465;</a>
+                <% } else { %>
+                    <a href="activate_product/<%= row.id %>" title="Återaktivera">&#9100;</a>
+                <% } %>
+                <% if (row.antal == 0) { %>
+                    <a href="delete_product/<%= row.id %>" title="Permanent borttagning">&#128163;</a>
+                <% } else { %>
+                    &nbsp;&nbsp;&nbsp;
+                <% } %>%>
+            </td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

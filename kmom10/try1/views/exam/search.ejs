@@ -1,0 +1,42 @@
+<%- include("../partials/header", {title: title, path: path}); %>
+
+<h1>Filter</h1>
+
+<form method="post">
+    <fieldset>
+        <legend>Filtrera bland fälten</legend>
+
+        <label for="search">Sökfilter</label>
+        <br>
+        <input id="search" type="text" name="search" maxlength="150" required>
+        <input type="submit" name="serchFilter" value="Filtrera">
+    </fieldset>
+</form>
+<br>
+
+<table>
+    <thead>
+        <tr>
+            <th>Namn</th>
+            <th>Ort</th>
+            <th>Hund</th>
+            <th>Ras</th>
+            <th>Godkänd</th>
+            <th>Registrerad</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% for (const row of res) { %>
+        <tr>
+            <td><%= row.Namn %></td>
+            <td><%= row.Ort %></td>
+            <td class="left"><a href="<%= row.url %>" title="Länken till hundens wiki sida" target="_blank"><%= row.Hund %></a></td>
+            <td><%= row.Ras %></td>
+            <td><%= row.Godkand %></td>
+            <td class="right"><%= row.Registrerad %></td>
+        </tr>
+    <% }; %>
+    </tbody>
+</table>
+
+<%- include("../partials/footer"); %>

@@ -1,0 +1,88 @@
+<%- include("../../partials/header", {title: title, path: path}); %>
+
+<div class="invoice-box">
+    <table cellpadding="0" cellspacing="0">
+        <tr class="top">
+            <td colspan="5">
+                <table>
+                    <tr>
+                        <td class="title">
+                            <img src="/img/iconfinder_032_95930.png" style="width:100px; max-width:300px;">
+                        </td>
+                        <td>
+                            Order #: <%= order_id %><br>
+                            Skapad: <%= order_skapad %><br>
+                            Status: <%= order_status %><br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+        <tr class="information">
+            <td colspan="5">
+                <table>
+                    <td>
+                        Ehop, Inc.<br>
+                        Regeringsgatan 3210<br>
+                        Stockholm, 12345
+                    </td>
+                    <td>
+                        <%= kund.fornamn %> <%= kund.efternamn %>,
+                        <% if (kund.epost != null && kund.epost != "") { %>
+                            epost: <br><%= kund.epost %>
+                        <% } %>
+                        <% if (kund.telefon != null && kund.telefon != "") { %>
+                            <br>tel: <%= kund.telefon %>
+                        <% } %>
+                        <br>
+                        <strong>Fakturaadress:</strong><br>
+                        <%= kund.fakturaadress %><br>
+                        <strong>Leveransadress:</strong><br>
+                        <% if (kund.leveransadress != null) { %>
+                            <%= kund.leveransadress %><br>
+                        <% } %> 
+                    </td>
+                </table>
+            </td>
+        </tr>
+        
+        <tr class="heading">
+            <th>Id</th>
+            <th>Produktnamn</th>
+            <th>Pris/st</th>
+            <th>Antal</th>
+            <th>Belopp</th>
+        </tr>
+        <%
+        let total = 0;
+        for (const row of res) { %>
+            <% if (row.selected_number > 0) {
+                let pris = row.pris;
+                if (row.gammalt_pris != undefined) {
+                    pris = row.gammalt_pris;
+                }
+            %>
+                <tr class="details">
+                    <td class="right"><%= row.id %></td>
+                    <td class="left"><%= row.namn %></td>
+                    <td class="right"><%= pris %> kr</td>
+                    <td class="right"><%= row.selected_number %> st</td>
+                    <td class="right"><%= pris * row.selected_number %> kr</td>
+                </tr>
+            <%
+            total += pris * row.selected_number;
+            } %>
+        <%
+        };
+        %>
+        
+        <tr class="total">
+            <td colspan="4"></td>
+            <td>
+            Totalt: <%= total %> kr 
+            </td>
+        </tr>
+    </table>
+</div>
+<%- include("../../partials/footer"); %>
