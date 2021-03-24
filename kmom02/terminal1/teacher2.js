@@ -32,7 +32,7 @@ const columns = {
 
     json = await func.getMaxLengths(db);
     // console.info(Object.keys(json[0]));
-    // console.info(Object.values(json[0]));
+    console.info(Object.values(json[0]));
     str = await func.getTeachers2(db, columns, Object.values(json[0]));
     console.info(str);
 

@@ -90,6 +90,8 @@ function showTable(res, tableHeader, maxLengths) {
         coumnNames = Object.keys(tableHeader),
         columnPaddings = Object.values(tableHeader);
 
+    console.log(columns);
+    console.log(coumnNames);
     maxLengths.forEach(function (item, index) {
         let max = Math.max(maxLengths[index], coumnNames[index].length);
 

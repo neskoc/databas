@@ -154,6 +154,19 @@ desktop.ini
 .private/
 private_code/
 
+# databas
+bin/
+build/
+composer.lock
+.venv/
+node_modules
+package-lock.json
+inspect.output
+log-gui-main.ansi
+log-gui-inspect.ansi
+.log/
+inspect-gui
+
 # Other
 .data/
 Test_pytorch_text_sent.ipynb
